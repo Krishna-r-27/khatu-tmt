@@ -1,0 +1,2 @@
+D:\chaitali\react projects\KhatuTMT\khatutmt.client\obj\Debug\khatutmt.client.esproj.CoreCompileInputs.cache
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\khatutmt.client\obj\Debug\khatutmt.client.esproj.CoreCompileInputs.cache

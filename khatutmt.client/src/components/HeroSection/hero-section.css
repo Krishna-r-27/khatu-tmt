@@ -1,0 +1,129 @@
+﻿/* SVG WIDTH */
+.hero-svg {
+    max-width: 720px;
+}
+
+/* MOBILE → CENTER */
+@media (max-width: 1023px) {
+    .hero-svg {
+        display: block;
+        margin-inline: auto;
+    }
+
+    .hero-text {
+        text-anchor: middle;
+    }
+}
+
+/* DESKTOP → LEFT */
+@media (min-width: 1024px) {
+    .hero-text {
+        text-anchor: start;
+    }
+}
+/* ============================
+   HERO SCROLL ANIMATION SYSTEM
+   ============================ */
+
+.hero-root {
+    --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Initial hidden states */
+.hero-heading,
+.hero-desc,
+.hero-cta,
+.hero-image-mobile,
+.hero-image-desktop {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.9s var(--ease), transform 0.9s var(--ease);
+    will-change: transform, opacity;
+}
+
+/* SVG text lines */
+.hero-line {
+    opacity: 0;
+    transform: translateY(40px) scale(0.98);
+    transition: opacity 1s var(--ease), transform 1s var(--ease);
+    will-change: transform, opacity;
+}
+
+/* Desktop image premium motion */
+.hero-image-desktop {
+    transform: translateX(60px) scale(0.96);
+}
+
+/* Mobile image */
+.hero-image-mobile {
+    transform: translateY(32px) scale(0.97);
+}
+
+/* ===== ACTIVE STATE ===== */
+
+.hero-visible .hero-heading {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.hero-visible .hero-line-1 {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    transition-delay: 0.1s;
+}
+
+.hero-visible .hero-line-2 {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    transition-delay: 0.22s;
+}
+
+.hero-visible .hero-image-mobile {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    transition-delay: 0.3s;
+}
+
+.hero-visible .hero-desc {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.4s;
+}
+
+.hero-visible .hero-cta {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.52s;
+}
+
+.hero-visible .hero-image-desktop {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+    transition-delay: 0.35s;
+}
+
+/* ===== ACCESSIBILITY ===== */
+@media (prefers-reduced-motion: reduce) {
+    .hero-heading,
+    .hero-desc,
+    .hero-cta,
+    .hero-image-mobile,
+    .hero-image-desktop,
+    .hero-line {
+        transition: none !important;
+        transform: none !important;
+        opacity: 1 !important;
+    }
+}
+/* MOBILE → CENTER (default) */
+/* MOBILE → CENTER */
+.hero-svg {
+    overflow: visible;
+}
+
+@media (max-width: 1024px) {
+
+    .hero-line {
+        transform: translateX(50%) scale(0.98) !important;
+    }
+}

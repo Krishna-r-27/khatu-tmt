@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="khatutmt.client/khatutmt.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="KhatuTMT.Server/KhatuTMT.Server.csproj" />
+</Solution>

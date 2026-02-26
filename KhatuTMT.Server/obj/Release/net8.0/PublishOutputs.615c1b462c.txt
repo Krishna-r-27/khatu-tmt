@@ -1,0 +1,12 @@
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\publish\KhatuTMT.Server.exe
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\publish\appsettings.Development.json
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\publish\appsettings.json
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\publish\KhatuTMT.Server.dll
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\publish\KhatuTMT.Server.deps.json
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\publish\KhatuTMT.Server.runtimeconfig.json
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\publish\KhatuTMT.Server.pdb
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\publish\Microsoft.AspNetCore.SpaProxy.dll
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\publish\Microsoft.OpenApi.dll
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

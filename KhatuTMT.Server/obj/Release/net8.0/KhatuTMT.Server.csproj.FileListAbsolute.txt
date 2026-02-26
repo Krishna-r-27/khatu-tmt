@@ -1,0 +1,76 @@
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\spa.proxy.json
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\appsettings.Development.json
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\appsettings.json
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\KhatuTMT.Server.staticwebassets.endpoints.json
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\KhatuTMT.Server.exe
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\KhatuTMT.Server.deps.json
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\KhatuTMT.Server.runtimeconfig.json
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\KhatuTMT.Server.dll
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\KhatuTMT.Server.pdb
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\Microsoft.OpenApi.dll
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.csproj.AssemblyReference.cache
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\spa.proxy.json
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\rpswa.dswa.cache.json
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.AssemblyInfoInputs.cache
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.AssemblyInfo.cs
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.csproj.CoreCompileInputs.cache
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.MvcApplicationPartsAssemblyInfo.cs
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.MvcApplicationPartsAssemblyInfo.cache
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\rjimswa.dswa.cache.json
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\rjsmrazor.dswa.cache.json
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\rjsmcshtml.dswa.cache.json
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\scopedcss\bundle\KhatuTMT.Server.styles.css
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\staticwebassets.build.json
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\staticwebassets.build.json.cache
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\staticwebassets.development.json
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\staticwebassets.build.endpoints.json
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\swae.build.ex.cache
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.1C4DB189.Up2Date
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.dll
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\refint\KhatuTMT.Server.dll
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.pdb
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.genruntimeconfig.cache
+D:\chaitali\react projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\ref\KhatuTMT.Server.dll
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\appsettings.Development.json
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\appsettings.json
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\KhatuTMT.Server.staticwebassets.endpoints.json
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\spa.proxy.json
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\KhatuTMT.Server.exe
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\KhatuTMT.Server.deps.json
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\KhatuTMT.Server.runtimeconfig.json
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\KhatuTMT.Server.dll
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\KhatuTMT.Server.pdb
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\Microsoft.OpenApi.dll
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.csproj.AssemblyReference.cache
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\spa.proxy.json
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\rpswa.dswa.cache.json
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.AssemblyInfoInputs.cache
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.AssemblyInfo.cs
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.csproj.CoreCompileInputs.cache
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\rjimswa.dswa.cache.json
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\scopedcss\bundle\KhatuTMT.Server.styles.css
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\staticwebassets.build.json
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\staticwebassets.build.json.cache
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\staticwebassets.development.json
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\staticwebassets.build.endpoints.json
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.1C4DB189.Up2Date
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.dll
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\refint\KhatuTMT.Server.dll
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.pdb
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.genruntimeconfig.cache
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\ref\KhatuTMT.Server.dll
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.sourcelink.json

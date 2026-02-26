@@ -1,0 +1,6 @@
+@KhatuTMT.Server_HostAddress = http://localhost:5171
+
+GET {{KhatuTMT.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
