@@ -75,3 +75,4 @@ C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\Khat
 C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Debug\net8.0\KhatuTMT.Server.pdb
 C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Debug\net8.0\KhatuTMT.Server.genruntimeconfig.cache
 C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Debug\net8.0\ref\KhatuTMT.Server.dll
+C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Debug\net8.0\KhatuTMT.Server.sourcelink.json

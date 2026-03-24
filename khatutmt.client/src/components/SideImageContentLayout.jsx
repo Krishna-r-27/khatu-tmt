@@ -88,7 +88,7 @@ const SideImageContentLayout = ({
                         {heading}
                     </h2>
 
-                    <p
+                    <div
                         className={`
               text-[#282828] text-base mb-0 lg:mb-6
               transition-all duration-700 delay-200
@@ -96,7 +96,7 @@ const SideImageContentLayout = ({
             `}
                     >
                         {description}
-                    </p>
+                    </div>
 
                     {buttonText && (
                         <div

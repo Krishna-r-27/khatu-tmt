@@ -6,7 +6,6 @@ import ReBarsTable from "../../components/OurProducts/ReBarsTable";
 import BenefitsAccordion from "../../components/OurProducts/BenefitsAccordion";
 import SteelMeltingProcess from "../../components/OurProducts/SteelMeltingProcess";
 import SteelQualitySection from "../../components/OurProducts/SteelQualitySection";
-import TermexSection from "../../components/TermexSection/TermexSection";
 
 function Products() {
     const leftItems = [
@@ -21,39 +20,39 @@ function Products() {
             title: "Bend Properties",
             content: {
                 type: "paragraph",
-                text: "Due to unique feature of elongation KHATU TMX TMT bars display many times Bend/Re-bend properties which make it not only easy on work but safe in hazardous situations.",
+                text: "Due to unique feature of elongation KHATU TMT bars display many times Bend/Re-bend properties which make it not only easy on work but safe in hazardous situations.",
             },
         },
         {
             title: "Fire Resistant",
             content: {
                 type: "paragraph",
-                text: "KHATU TMX TMT Bar has higher thermal stability in comparison to CTD bar making it safer in fire hazards.",
+                text: "KHATU TMT Bar has higher thermal stability in comparison to CTD bar making it safer in fire hazards.",
             },
         },
         {
             title: "Ageing Resistant",
             content: {
                 type: "paragraph",
-                text: "KHATU TMX TMT Bars is ageing resistant due to the manufacturing process and chemical composition.",
+                text: "KHATU TMT Bars is ageing resistant due to the manufacturing process and chemical composition.",
             },
         },
         {
             title: "Weldability",
             content: {
                 type: "paragraph",
-                text: "KHATU TMX TMT bars with low carbon content can be used for huti and other weld joints without reduction in strength as the weld joints.",
+                text: "KHATU TMT bars with low carbon content can be used for huti and other weld joints without reduction in strength as the weld joints.",
             },
         },
         {
             title: "Saving",
             content: {
                 type: "paragraph",
-                text: "More strength means more saving too. KHATU TMX TMT bars save steel up to 20%.",
+                text: "More strength means more saving too. KHATU TMT bars save steel up to 20%.",
             },
         },
         {
-            title: "Khatu TMX TMT Bars dispatch information",
+            title: "KHATU TMT Bars dispatch information",
             content: {
                 type: "list",
                 items: [
@@ -82,16 +81,16 @@ function Products() {
             title: "Elongation",
             content: {
                 type: "paragraph",
-                text: "More strength with higher elongation in one of the unique feature of KHATU TMX TMT bars. It makes no concrete structure not only sound but safe also. KHATU TMX TMT bars show up to 50% more elongation than the conventional CTD bars without compromising on strength which makes it safe in earthquake prone areas.",
-                highlight: ["KHATU TMX TMT"], // words to bold
+                text: "More strength with higher elongation in one of the unique feature of KHATU TMT bars. It makes no concrete structure not only sound but safe also. KHATU TMT bars show up to 50% more elongation than the conventional CTD bars without compromising on strength which makes it safe in earthquake prone areas.",
+                highlight: ["KHATU TMT"], // words to bold
             },
         },
         {
             title: "Corrosion Resistant",
             content: {
                 type: "paragraph",
-                text: "KHATU TMX TMT Bars show negligible rusting in comparison to cold twisted bars. Even after long period of time. Due to its very special manufacturing process and absence of cold stress it means longer life of concrete structure i.e. Buildings.",
-                highlight: ["KHATU TMX TMT"],
+                text: "KHATU TMT Bars show negligible rusting in comparison to cold twisted bars. Even after long period of time. Due to its very special manufacturing process and absence of cold stress it means longer life of concrete structure i.e. Buildings.",
+                highlight: ["KHATU TMT"],
             },
         },
         {
@@ -112,7 +111,7 @@ function Products() {
             title: "Technology",
             content: {
                 type: "paragraph",
-                text: "KHATU TMX TMT bars are the latest on globe THERMEX technology which makes it latest and innovative product.",
+                text: "KHATU TMT bars are the latest on globe THERMEX technology which makes it latest and innovative product.",
             },
         },
         {
@@ -120,10 +119,17 @@ function Products() {
             content: {
                 type: "list",
                 items: [
-                    "KHATU TMX TMT bars are available in a wide range of sizes.",
+                    "KHATU TMT bars are available in a wide range of sizes.",
                     "Regular 8, 10, 12, 16, 20, 25, 32 MM dia.",
                     "On order: 18, 22, 28 MM dia.",
                 ],
+            },
+        },
+        {
+            title: "Quality Accrediation",
+            content: {
+                type: "paragraph",
+                text: "KHATU TMX Re-Bars are produced bases on Indian Technology & Design our processes and product confirm to FE-500, FE-550, Fe-500 D Fe-550 D As per IS: 1786/2008.",
             },
         },
         {
@@ -143,13 +149,7 @@ function Products() {
                 ],
             },
         },
-        {
-            title: "Quality Accrediation",
-            content: {
-                type: "paragraph",
-                text: "KHATU TMX Re-Bars are produced bases on Indian Technology & Design our processes and product confirm to FE-500, FE-550, Fe-500 D Fe-550 D As per IS: 1786/2008.",
-            },
-        },
+       
     ];
 
     const qualityCards = [
@@ -171,7 +171,7 @@ function Products() {
               pageName="Products" />
           <Billets />
           <KhatuTMXBars />
-          <TermexSection />
+          
           <Quality />
           <SteelQualitySection
               bgImage={`${import.meta.env.BASE_URL}/assets/images/steel-quality.png`}

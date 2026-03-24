@@ -14,7 +14,7 @@
                     : "opacity-0 translate-x-16"}
     `}
         >
-            <h2 className="text-xl sm:text-4xl font-bold text-primary mb-4 lg:mb-8">
+            <h2 className="text-xl sm:text-4xl font-bold text-primary mb-4 lg:mb-5">
                 Quality control practices for billet mfg
             </h2>
 

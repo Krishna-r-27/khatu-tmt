@@ -52,7 +52,7 @@ function Quality() {
                       <div className="text-[#282828] text-sm sm:text-base leading-relaxed space-y-4">
 
                           <p>
-                              KHATU Multimedia implies quality, and this is seen from the fact that our product and processes are approved by various reputed groups. All the raw materials as well as finishing products are tested as per IS and Thermex Specifications at our well-equipped Chemical and Physical labs, Test Certificates are Issued with every delivery. <strong>KHATU TMX</strong> TMT Bars are manufacturing conforming to various international standards. Vis IS 1786 grade <strong>FE-500/550/500 D/550 D of BIS OF INDIA.</strong>
+                              KHATU Multimedia implies quality, and this is seen from the fact that our product and processes are approved by various reputed groups. All the raw materials as well as finishing products are tested as per IS and Thermex Specifications at our well-equipped Chemical and Physical labs, Test Certificates are Issued with every delivery. <strong>KHATU TMT</strong> Bars are manufacturing conforming to various international standards. Vis IS 1786 grade <strong>FE-550/550 D of BIS OF INDIA.</strong>
                           </p>
                           <div>
                               <h3 className="text-lg sm:text-xl font-semibold text-[#000000] mb-3">

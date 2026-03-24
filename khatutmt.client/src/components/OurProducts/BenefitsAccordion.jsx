@@ -1,183 +1,168 @@
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 
 function BenefitsAccordion({ title, leftItems, rightItems }) {
-    const [activeKey, setActiveKey] = useState("left-0"); // First item open
+    const items = [...leftItems, ...rightItems];
 
-    const toggleItem = (key) => {
-        setActiveKey(activeKey === key ? null : key);
-    };
+    const [current, setCurrent] = useState(0);
+    const [isMobile, setIsMobile] = useState(false);
+    const intervalRef = useRef(null);
 
-    const renderItems = (items, columnName) =>
-        items.map((item, index) => {
-            const key = `${columnName}-${index}`;
-            const isOpen = activeKey === key;
-
-            return (
-                <div key={key} className="mb-4">
-
-                    <button
-                        onClick={() => toggleItem(key)}
-                        className={`w-full flex justify-between items-center
-              px-4 py-4 text-left text-white
-              font-semibold text-base sm:text-lg
-              bg-gradient-to-r from-[#CF3A38] to-[#F89B32]
-              ${isOpen ? "rounded-t-md" : "rounded-md"}`}
-                    >
-                        {item.title}
-                        <picture className="w-5 h-5">
-                            {isOpen ? (
-                                <>
-                                    <source
-                                        srcSet={`${import.meta.env.BASE_URL}/assets/images/up-arrow.webp`}
-                                        type="image/webp"
-                                    />
-                                    <img
-                                        src={`${import.meta.env.BASE_URL}/assets/images/up-arrow.png`}
-                                        alt="Collapse"
-                                        className="w-4 h-4"
-                                    />
-                                </>
-                            ) : (
-                                <>
-                                    <source
-                                        srcSet={`${import.meta.env.BASE_URL}/assets/images/down-arrow.webp`}
-                                        type="image/webp"
-                                    />
-                                    <img
-                                        src={`${import.meta.env.BASE_URL}/assets/images/down-arrow.png`}
-                                        alt="Expand"
-                                        className="w-4 h-4"
-                                    />
-                                </>
-                            )}
-                        </picture>
-
-                    </button>
-
-                    {isOpen && (
-                        <div className="bg-[linear-gradient(90deg,#CF3A38_0%,#F89B32_100%)] p-[1px] rounded-b-md">
-                            <div className="bg-white p-3 sm:p-4 md:p-4 lg:p-5 text-sm sm:text-base text-[#282828] rounded-b-md">
-                                {item.content.type === "paragraph" && (
-                                    <p>
-                                        {item.content.highlight
-                                            ? item.content.text.split(
-                                                new RegExp(`(${item.content.highlight.join("|")})`, "g")
-                                            ).map((part, i) =>
-                                                item.content.highlight.includes(part) ? (
-                                                    <strong key={i}>{part}</strong>
-                                                ) : (
-                                                    part
-                                                )
-                                            )
-                                            : item.content.text}
-                                    </p>
-                                )}
-
-                                {item.content.type === "list" && (
-                                    <ul className="space-y-2">
-                                        {item.content.items.map((point, i) => (
-                                            <li
-                                                key={i}
-                                                className="flex items-start gap-3 text-[#282828] text-sm sm:text-base leading-relaxed"
-                                            >
-                                                <picture className="flex-shrink-0">
-                                                    <source
-                                                        srcSet={`${import.meta.env.BASE_URL}/assets/images/arrow-point.webp`}
-                                                        type="image/webp"
-                                                    />
-                                                    <img
-                                                        src={`${import.meta.env.BASE_URL}/assets/images/arrow-point.png`}
-                                                        alt="arrow"
-                                                        className="w-4 h-4 mt-1 flex-shrink-0"
-                                                    />
-                                                </picture>
-                                                <span>
-                                                    {item.content.highlight
-                                                        ? point
-                                                            .split(
-                                                                new RegExp(
-                                                                    `(${[...item.content.highlight]
-                                                                        .sort((a, b) => b.length - a.length)
-                                                                        .join("|")})`,
-                                                                    "g"
-                                                                )
-                                                            )
-                                                            .map((part, i) =>
-                                                                item.content.highlight.includes(part) ? (
-                                                                    <strong key={i}>{part}</strong>
-                                                                ) : (
-                                                                    part
-                                                                )
-                                                            )
-                                                        : point}
-                                                </span>
-                                            </li>
-                                        ))}
-                                    </ul>
-                                )}
-                            </div>
-                        </div>
-                    )}
-                </div>
-            );
-        });
-
-    const sectionRef = useRef(null);
-    const [isVisible, setIsVisible] = useState(false);
-
+    /* -----------------------------
+       Detect Screen Size
+    ----------------------------- */
     useEffect(() => {
-        const observer = new IntersectionObserver(
-            ([entry]) => setIsVisible(entry.isIntersecting),
-            { threshold: 0 }
-        );
-
-        const currentRef = sectionRef.current;
-        if (currentRef) observer.observe(currentRef);
-
-        return () => {
-            if (currentRef) observer.unobserve(currentRef);
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 769);
         };
+
+        handleResize();
+        window.addEventListener("resize", handleResize);
+
+        return () => window.removeEventListener("resize", handleResize);
     }, []);
 
-    return (
-        <section ref={sectionRef} className="w-full py-10 sm:py-14 md:py-16 lg:py-100">
-            <div className="container mx-auto">
+    /* -----------------------------
+       Auto Slide (Only Mobile)
+    ----------------------------- */
+    useEffect(() => {
+        if (!isMobile) return;
 
-                <h2
-                    className={`text-xl sm:text-4xl font-bold text-primary mb-4 lg:mb-8
-    transform-gpu transition-all duration-[1400ms]
-    ease-[cubic-bezier(0.22,1,0.36,1)]
-    ${isVisible
-                            ? "opacity-100 translate-y-0"
-                            : "opacity-0 -translate-y-16"
-                        }`}
-                >
+        intervalRef.current = setInterval(() => {
+            setCurrent((prev) => (prev + 1) % items.length);
+        }, 4000);
+
+        return () => clearInterval(intervalRef.current);
+    }, [isMobile, items.length]);
+
+    return (
+        <section className="w-full py-20">
+            <div className="mx-auto container">
+
+                {/* Title */}
+                <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-8">
                     {title}
                 </h2>
 
-                {/* Two Column Layout */}
-                <div className="grid md:grid-cols-2 gap-0 md:gap-10">
+                {/* =========================
+                   DESKTOP / TABLET GRID
+                ========================== */}
+                <div className="hidden md:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {items.map((item, index) => (
+                        <div
+                            key={index}
+                            className={`
+        bg-white
+        border-2 border-[#F9AB31]
+        rounded-xl
+        p-6
+        shadow-lg
+        transition-all duration-500
+        hover:shadow-2xl
+        hover:-translate-y-2
+
+        ${index === items.length - 1 ? "lg:col-span-3 sm:col-span-2" : ""}
+    `}
+                        >
+                            <h3 className="text-lg font-medium mb-3 text-[#000000]">
+                                {item.title}
+                            </h3>
+
+                            {item.content.type === "paragraph" && (
+                                <p className="text-[#282828] text-md leading-relaxed">
+                                    {item.content.text}
+                                </p>
+                            )}
+
+                            {item.content.type === "list" && (
+                                <ul
+                                    className={`
+        ${item.title === "Quality Implementation"
+                                            ? "grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3"
+                                            : "space-y-2"
+                                        }
+    `}
+                                >
+                                    {item.content.items.map((point, i) => (
+                                        <li
+                                            key={i}
+                                            className="flex items-start gap-3 text-[#282828] text-sm sm:text-base leading-relaxed"
+                                        >
+                                            <img
+                                                src={`${import.meta.env.BASE_URL}/assets/images/arrow-point.png`}
+                                                alt="arrow"
+                                                className="w-4 h-4 mt-1 flex-shrink-0"
+                                            />
+                                            <span>{point}</span>
+                                        </li>
+                                    ))}
+                                </ul>
+                            )}
+                        </div>
+                    ))}
+                </div>
+
+                {/* =========================
+                   MOBILE SLIDER (<769px)
+                ========================== */}
+                <div className="md:hidden relative overflow-hidden">
 
                     <div
-                        className={`transform-gpu transition-all duration-[1600ms]
-                    ease-[cubic-bezier(0.22,1,0.36,1)]
-                    ${isVisible
-                                ? "opacity-100 translate-y-0"
-                                : "opacity-0 translate-y-24"
-                            }`}
+                        className="flex transition-transform duration-500 ease-in-out"
+                        style={{ transform: `translateX(-${current * 100}%)` }}
                     >
-                        {renderItems(leftItems, "left")}
+                        {items.map((item, index) => (
+                            <div key={index} className="min-w-full px-2">
+                                <div className="
+                                    bg-white
+                                    border-2 border-[#F9AB31]
+                                    rounded-xl
+                                    p-6
+                                    shadow-lg
+                                ">
+                                    <h3 className="text-lg font-medium mb-3 text-[#000000]">
+                                        {item.title}
+                                    </h3>
+
+                                    {item.content.type === "paragraph" && (
+                                        <p className="text-gray-700 text-sm leading-relaxed">
+                                            {item.content.text}
+                                        </p>
+                                    )}
+
+                                    {item.content.type === "list" && (
+                                        <ul className="space-y-2">
+                                            {item.content.items.map((point, i) => (
+                                                <li
+                                                    key={i}
+                                                    className="flex items-start gap-3 text-[#282828] text-sm leading-relaxed"
+                                                >
+                                                    <img
+                                                        src={`${import.meta.env.BASE_URL}/assets/images/arrow-point.png`}
+                                                        alt="arrow"
+                                                        className="w-4 h-4 mt-1"
+                                                    />
+                                                    <span>{point}</span>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    )}
+                                </div>
+                            </div>
+                        ))}
                     </div>
 
-                    <div
-                        className={`transform-gpu transition-all duration-[1700ms]
-                    ease-[cubic-bezier(0.22,1,0.36,1)]
-                    ${isVisible
-                                ? "opacity-100 translate-y-0"
-                                : "opacity-0 -translate-y-24"
-                            }`}
-                    >
-                        {renderItems(rightItems, "right")}
+                    {/* DOTS */}
+                    <div className="flex justify-center mt-6 gap-2">
+                        {items.map((_, index) => (
+                            <button
+                                key={index}
+                                onClick={() => setCurrent(index)}
+                                className={`h-3 rounded-full transition-all duration-300 ${current === index
+                                        ? "bg-[#F9AB31] w-6"
+                                        : "bg-gray-300 w-3"
+                                    }`}
+                            />
+                        ))}
                     </div>
 
                 </div>

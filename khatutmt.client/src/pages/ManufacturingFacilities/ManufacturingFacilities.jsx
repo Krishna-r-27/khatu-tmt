@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import BannerSection from "../../components/BannerSection/BannerSection";
+import FlowChartProcess from "../../components/OurProducts/FlowChartProcess";
 const ManufacturingFacilities = () => {
     const sectionRef = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
@@ -60,20 +61,22 @@ const ManufacturingFacilities = () => {
                                 }`}
                         >
                             <p>
-                                The company's head office is located in Mumbai, and Surat its manufacturing facilities are situated 150 km outside Mumbai in Kharadpada, Silvassa.
+                                The company's head office is located in Mumbai, and its manufacturing facilities are situated 150 km outside Mumbai in Kharadpada, Silvassa.
                             </p>
 
                             <p>
-                                Shri Khatu Shyam has a steel unit at Silvassa that manufactures M.S. Billets and Ingots along with TMT Bars. We manufacture high quality Billets and Ingots, which helps us make our finished material of high grade.
+                                Shri Khatu Shyam has a steel unit in Silvassa that manufactures M.S. billets along with TMT bars. We produce high-quality billets, which help us ensure that our finished products are of superior grade.
                             </p>
 
                             <p>
-                                Shri Khatu Shyam Alloys Pvt. Ltd. is equipped with a fully automatic steel rolling mill at Silvassa (Dadra Nagar Haveli), complete with advanced machinery and latest technology, to provide a superior quality of TMT Bars. Renowned names in construction and infrastructure sectors from Mumbai and South Gujarat have relied on our brand of TMT Bars known as Khatu Thermex 500. Certified by Bureau of Indian Standards and also has a recipient of Thermex QST license, Khatu Thermex 500 is a superior quality steel bar that provides unparalleled solution to the construction industry in terms of strength and stability.
+                                Shri Khatu Shyam Alloys Pvt. Ltd. is equipped with a fully automatic steel rolling mill at Silvassa (Dadra Nagar Haveli), complete with advanced machinery and latest technology, to provide a superior quality of TMT Bars. Renowned names in construction and infrastructure sectors from Mumbai and South Gujarat have relied on our brand of TMT Bars known as Khatu TMT. Certified by Bureau of Indian Standards and also has a recipient of Thermex QST license, Khatu TMT is a superior quality steel bar that provides unparalleled solution to the construction industry in terms of strength and stability.
                             </p>
 
                         </div>
 
                     </div>
+
+                    <FlowChartProcess />
                 </div>
             </section>
         </>

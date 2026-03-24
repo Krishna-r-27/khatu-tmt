@@ -6,6 +6,7 @@ import HeroSection from "../../components/HeroSection/HeroSection";
 import ImageWithContentSection from "../../components/ImageWithContentSection";
 import ProductFeatureSection from "../../components/ProductFeatureSection";
 import SideImageContentLayout from "../../components/SideImageContentLayout";
+import KhatuCertificate from "../../components/Certificates";
 import { setSEO } from "../../utils/seo";
 
 function Home() {
@@ -22,12 +23,12 @@ function Home() {
           <HeroSection />
          
           <SideImageContentLayout
-              imageName="about-khatu-tmt"
+              imageName="about-khatu-tmt-new"
               imageExt="png"
               imageAlt="Steel factory"
               badgeTitle="Founded in 2001"
               heading="About Khatu TMT"
-              description="Shri Khatu Shyam Alloys Pvt. Ltd. is one of the most prominent names in the Indian steel industry, making a significant contribution to the development and growth of Indian economy. Founded in 2001 initially the company was solely into the production of M.S. Ingots. Over the years, we expanded our capabilities beyond M.S. Ingots and emerged as the renowned manufacturers and suppliers of Thermex TMT Bars."
+              description="Shri Khatu Shyam Alloys Pvt. Ltd. is one of the most prominent names in the Indian steel industry, making a significant contribution to the development and growth of the Indian economy. Founded in 2001, the company initially focused on steel production. Over the years, we have expanded our capabilities and emerged as renowned manufacturers and suppliers of Thermex TMT Bars."
               buttonText="Know More"
               buttonLink="/about-us"
           />
@@ -39,13 +40,15 @@ function Home() {
               imageExt="png"
               imageAlt="Building construction"
               heading="Manufacturing Facilities"
-              description="Shri Khatu Shyam Alloys Pvt. Ltd. is equipped with a fully automatic steel rolling mill at Silvassa (Dadra Nagar Haveli), complete with advanced machinery and latest technology, to provide a superior quality of TMT Bars. Renowned names in construction and infrastructure sectors from Mumbai and South Gujarat have relied on our brand of TMT Bars known as Khatu Thermex 500."
+              description="Shri Khatu Shyam Alloys Pvt. Ltd. is equipped with a fully automatic steel rolling mill at Silvassa (Dadra Nagar Haveli), complete with advanced machinery and latest technology, to provide a superior quality of TMT Bars. Renowned names in construction and infrastructure sectors from Mumbai and South Gujarat have relied on our brand of TMT Bars known as Khatu TMT."
               buttonText="Know More"
               buttonLink="/manufacturing-facilities"
               reverse={false}
           />
 
           <ClientsSlider />
+
+          <KhatuCertificate />
        
           
 </div>

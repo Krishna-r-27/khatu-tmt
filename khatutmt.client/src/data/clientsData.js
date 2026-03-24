@@ -34,5 +34,78 @@ export const clientsData = [
         ext: "png",
         url: "https://www.larsentoubro.com/",
     },
+    {
+        id: 6,
+        name: "The Baya Grove",
+        image: "the-baya-grove-new",
+        ext: "png",
+        url: "https://www.thebayacompany.com/",
+    },
+    
+    {
+        id: 8,
+        name: "Sunteck India",
+        image: "sunteck-india",
+        ext: "png",
+        url: "https://www.sunteckindia.com/",
+    },
+    {
+        id: 9,
+        name: "Man EPC",
+        image: "man-epc-new",
+        ext: "png",
+        url: "https://www.maninfra.com/",
+    },
+    {
+        id: 10,
+        name: "Roswalt",
+        image: "roswalt-new",
+        ext: "png",
+        url: "https://www.roswalt.com/",
+    },
+    {
+        id: 11,
+        name: "Ashwin sheth group",
+        image: "ashwin-sheth-group",
+        ext: "png",
+        url: "https://www.ashwinshethgroup.com/",
+    },
+
+
+    {
+        id: 12,
+        name: "Mahindra Lifespaces",
+        image: "mahindra-lifespaces-new",
+        ext: "png",
+        url: "https://www.mahindralifespaces.com/",
+    },
+    {
+        id: 13,
+        name: "Ranwal Reality",
+        image: "runwal-reality-new",
+        ext: "png",
+        url: "https://runwalrealty.com/",
+    },
+    {
+        id: 14,
+        name: "j kumar",
+        image: "j-kumar-new",
+        ext: "png",
+        url: "https://www.jkumar.com/",
+    },
+    {
+        id: 15,
+        name: "The Wadhwa Group",
+        image: "the-wadhwa-group-new",
+        ext: "png",
+        url: "https://www.thewadhwagroup.com/",
+    },
+    {
+        id: 7,
+        name: "Paradise Group",
+        image: "paradise-group-new",
+        ext: "png",
+        url: "https://www.paradisegroup.co.in/",
+    },
   
 ];

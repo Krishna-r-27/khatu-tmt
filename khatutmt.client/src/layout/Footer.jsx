@@ -46,12 +46,7 @@ const Footer = () => {
                         />
                     </NavLink>
                         <p className="leading-7 text-base">
-                            Shri Khatu Shyam Alloys Pvt. Ltd. is one of the most
-                            prominent names in the Indian steel industry, making
-                            a significant contribution to the development and
-                            growth of Indian economy. Founded in 2001 initially
-                            the company was solely into the production of M.S.
-                            Ingots.
+                            Shri Khatu Shyam Alloys Pvt. Ltd. is one of the most prominent names in the Indian steel industry, making a significant contribution to the development and growth of the Indian economy. Founded in 2001, the company initially focused on steel production.
                         </p>
                     </div>
 

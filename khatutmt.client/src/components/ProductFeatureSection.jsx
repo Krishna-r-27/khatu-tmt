@@ -65,9 +65,7 @@ const ProductFeatureSection = () => {
                                     : "opacity-0 translate-y-6"}
                             `}
                         >
-                            The first step of Billet or Ingots production is of procurement of sponge iron.
-                            Best quality sponge iron is procured and stored in the Raw Material Yard.
-                            This sponge iron is later fed to the furnace by a giant crane.
+                            The first step of billet production is the procurement of sponge iron. High-quality sponge iron is sourced and stored in the raw material yard. This sponge iron (DRI), along with scrap, is then added to the furnace using a giant crane.
                         </p>
 
                     </div>
@@ -103,8 +101,8 @@ const ProductFeatureSection = () => {
                     <div className="lg:col-span-6">
                         <ProductHighlightCard
                             title="Billets "
-                            description="Shri Khatu Shyam produces Ingots and Billets at its sister concern unit as per requirement of TMT Bars considering quality aspects. Shri Khatu Shyam is located in Silvassa."
-                            imageName="steel-bilet"
+                            description="Shri Khatu Shyam produces billets as per the requirements of TMT bars, with a strong focus on quality. The company is located in Silvassa."
+                            imageName="billets-banner-home"
                             imageExt="png"
                             imageAlt="Billets - Khatu TMT"
                             link="/products#billets"
@@ -115,7 +113,7 @@ const ProductFeatureSection = () => {
                         <ProductHighlightCard
                             title="TMT Bars"
                             description="KHATU THERMEX TMT Bars are internationally accepted and superior to conventional steel bars."
-                            imageName="tmt-bars-new"
+                            imageName="home-tmt-new"
                             imageExt="png"
                             imageAlt="TMT Bars  - Khatu TMT"
                             link="/products#khatu-tmx-bars"

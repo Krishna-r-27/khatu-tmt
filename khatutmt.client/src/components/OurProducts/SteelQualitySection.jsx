@@ -52,7 +52,7 @@ function SteelQualitySection({ bgImage, cards }) {
                                 {card.title}
                             </h3>
 
-                            <p className="text-sm md:text-basetext-[#282828] leading-relaxed">
+                            <p className="text-md md:text-basetext-[#282828] leading-relaxed">
                                 {card.description}
                             </p>
                         </div>

@@ -45,12 +45,12 @@ function KhatuTMXBars() {
                                   className="w-full rounded-2xl shadow-md object-cover"
                               />
                           </picture>
-                          <h2 class="text-xl sm:text-4xl font-bold text-primary mt-6 lg:mt-0 mb-4 lg:mb-6">Khatu TMX Bars</h2>
+                          <h2 class="text-xl sm:text-4xl font-bold text-primary mt-6 lg:mt-0 mb-4 lg:mb-6">Khatu TMT Bars</h2>
                           <p>
-                              <strong>KHATU TMX TMT Bars</strong> are accepted internationally and are superior to conventional cold twisted deformed bars or TOR STEEL Bars. Majority of the Central and State Government Departments, Construction and infrastructure Houses as also Quality Monitoring Agencies accept the same.
+                              <strong>KHATU TMT Bars</strong> are accepted internationally and are superior to conventional cold twisted deformed bars or TOR STEEL Bars. Majority of the Central and State Government Departments, Construction and infrastructure Houses as also Quality Monitoring Agencies accept the same.
                           </p>
                           <p>
-                              <strong>KHATU TMX TMT BARS</strong> are manufactured in our <strong>plant at Silvassa</strong> in the range of 08MM to 32 MM dia in grades FE-500, Fe-550, FE-500 D, Fe-550 D As per IS: 1786/2008 <strong>KHATU TMX</strong> TMT BARS exhibit high yield strength coupled with high elongation for strength and safety.
+                              <strong>KHATU TMT BARS</strong> are manufactured in our <strong>plant at Silvassa</strong> in the range of 08MM to 32 MM dia in grades FE-550, FE-550 D As per IS: 1786/2008 <strong>KHATU TMT</strong> BARS exhibit high yield strength coupled with high elongation for strength and safety.
                           </p>
                           
                       </div>

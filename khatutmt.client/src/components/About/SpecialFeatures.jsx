@@ -53,11 +53,11 @@ function SpecialFeatures() {
 
                                 <picture className="block md:hidden mb-6 mt-6">
                                     <source
-                                        srcSet={`${import.meta.env.BASE_URL}/assets/images/about-steel.webp`}
+                                        srcSet={`${import.meta.env.BASE_URL}/assets/images/about-steel-new.webp`}
                                         type="image/webp"
                                     />
                                     <img
-                                        src={`${import.meta.env.BASE_URL}/assets/images/about-steel.png`}
+                                        src={`${import.meta.env.BASE_URL}/assets/images/about-steel-new.png`}
                                         alt="Manufacturing Facility"
                                         className="w-full rounded-2xl object-cover"
                                     />
@@ -97,11 +97,11 @@ function SpecialFeatures() {
                         >
                             <picture className="hidden md:block">
                                 <source
-                                    srcSet={`${import.meta.env.BASE_URL}/assets/images/about-steel.webp`}
+                                    srcSet={`${import.meta.env.BASE_URL}/assets/images/about-steel-new.webp`}
                                     type="image/webp"
                                 />
                                 <img
-                                    src={`${import.meta.env.BASE_URL}/assets/images/about-steel.png`}
+                                    src={`${import.meta.env.BASE_URL}/assets/images/about-steel-new.png`}
                                     alt="Manufacturing Facility"
                                     className="w-full rounded-2xl object-cover"
                                 />

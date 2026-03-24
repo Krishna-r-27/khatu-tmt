@@ -36,11 +36,11 @@ function Billets() {
                       >
                           <picture>
                               <source
-                                  srcSet={`${import.meta.env.BASE_URL}/assets/images/steel-bilet-product.webp`}
+                                  srcSet={`${import.meta.env.BASE_URL}/assets/images/steel-bilet-product-new.webp`}
                                   type="image/webp"
                               />
                               <img
-                                  src={`${import.meta.env.BASE_URL}/assets/images/steel-bilet-product.png`}
+                                  src={`${import.meta.env.BASE_URL}/assets/images/steel-bilet-product-new.png`}
                                   alt="Manufacturing Facility"
                                   className="w-full rounded-2xl shadow-md object-cover"
                               />

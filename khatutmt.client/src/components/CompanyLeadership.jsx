@@ -6,7 +6,7 @@ const CompanyLeadership = ({
     heading = "From the Founder",
     description1 = (
         <>
-            Lead by our chairman, <strong className="text-primary">Mr.Ramavtar Agarwal,</strong> his wealth of experience and keen foresight, has helped us scale new heights of success.He is ably supported by his two sons Mr.Manish Agarwal and Mr.Ashish Agarwal.
+            Lead by our chairman, <strong className="text-primary">Late.Ramavtar Agarwal,</strong> his wealth of experience and keen foresight, has helped us scale new heights of success.He is ably supported by his two sons Mr.Manish Agarwal and Mr.Ashish Agarwal.
 </>        
     ),
     description2 = "Together they bring dynamism, commercial acumen, dedication and an enterprising approach that has propelled Shri Khatu Shyam Alloys Pvt. Ltd. as one a force to reckon with in the manufacturing sector.",

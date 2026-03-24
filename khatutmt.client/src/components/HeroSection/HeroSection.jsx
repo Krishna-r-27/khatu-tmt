@@ -49,15 +49,15 @@ const HeroSection = () => {
         <section
             ref={sectionRef}
             className="relative w-full overflow-hidden hero-root 
-min-h-[70vh] sm:min-h-[75vh] lg:min-h-[90vh] 
+min-h-[60vh] sm:min-h-[75vh] lg:min-h-[90vh] 
 flex items-start bg-cover bg-center"
             style={{
-                backgroundImage: `url(${import.meta.env.BASE_URL}/assets/images/home-banner.png)`
+                backgroundImage: `url(${import.meta.env.BASE_URL}/assets/images/khatu-tmt-home-banner.png)`
             }}
         >
             {/* LEFT CONTENT */}
-            <div className="container relative z-10 mx-auto px-4 py-12 lg:py-20">
-                <div className="max-w-3xl mx-auto text-center hero-content">
+            <div className="container-fluid relative z-10 mx-auto px-1 py-12 lg:py-20">
+                <div className="max-w-3xl mx-auto lg:mx-0 text-center lg:text-left hero-content">
 
                     {/* HEADING SVG */}
                     <h1 className="w-full sm:max-w-[520px] lg:max-w-[720px] mx-auto lg:mx-0 hero-heading">
@@ -84,9 +84,9 @@ flex items-start bg-cover bg-center"
                             </defs>
                             <text
                                 className="hero-text hero-line hero-line-1"
-                                x="40"
+                                x="16%"
                                 y="180"
-                                textAnchor="start"
+                                textAnchor="middle"
                                 fontSize="154"
                                 fontWeight="800"
                                 fill="url(#textGradient)"
@@ -100,9 +100,9 @@ flex items-start bg-cover bg-center"
 
                             <text
                                 className="hero-text hero-line hero-line-2"
-                                x="40"
+                                x="16%"
                                 y="420"
-                                textAnchor="start"
+                                textAnchor="middle"
                                 fontSize="154"
                                 fontWeight="800"
                                 fill="url(#textGradient)"
@@ -120,13 +120,13 @@ flex items-start bg-cover bg-center"
                     
 
                     {/* DESCRIPTION */}
-                    <p className="text-white max-w-lg text-xl mx-auto lg:mx-0 lg:ps-4 hero-desc text-start">
+                    <p className="text-[#282828] max-w-lg mb-0 lg:mb-10 text-md md:px-0 px-4 sm:text-xl mx-auto hero-desc text-center lg:text-start">
                         Delivering unmatched strength, safety, and performance for
                         modern infrastructure.
                     </p>
 
                     {/* CTA */}
-                    <div className="mt-6 flex justify-center lg:justify-start lg:ps-4 hero-cta">
+                    <div className="mt-6 max-w-lg mx-auto text-center lg:text-start hero-cta">
                         <ThemeButton
                             text="Know More" link="/about-us"
                             className="px-8 py-3 text-sm font-medium"
@@ -137,28 +137,28 @@ flex items-start bg-cover bg-center"
 
             {/* DESKTOP IMAGE */}
             {/* LEFT IMAGE */}
-            <div className="absolute left-0 bottom-0 w-[22%] xl:w-[18%] 2xl:w-[20%] hero-image-left hero-slide-left">
-                <Image
-                    name="banner-bars"
-                    ext="png"
-                    width={500}
-                    height={600}
-                    alt="Steel rods left"
-                    className="w-full object-contain"
-                />
-            </div>
-
+            {/*<div className="absolute left-0 bottom-0 w-[32%] xl:w-[25%] 2xl:w-[30%] hero-image-left hero-slide-left">*/}
+            {/*    <Image*/}
+            {/*        name="home-banner-building"*/}
+            {/*        ext="png"*/}
+            {/*        width={500}*/}
+            {/*        height={600}*/}
+            {/*        alt="Steel rods left"*/}
+            {/*        className="w-full object-contain"*/}
+            {/*    />*/}
+            {/*</div>*/}
+            
             {/* RIGHT IMAGE */}
-            <div className="absolute right-0 bottom-0 w-[32%] xl:w-[28%] 2xl:w-[30%] hero-image-right hero-slide-right">
-                <Image
-                    name="home-banner-building"
-                    ext="png"
-                    width={700}
-                    height={700}
-                    alt="Building right"
-                    className="w-full object-contain"
-                />
-            </div>
+            {/*<div className="absolute right-8 lg:right-20 bottom-0 w-[16%] xl:w-[20%] 2xl:w-[20%] hero-image-right hero-slide-right">*/}
+            {/*    <Image*/}
+            {/*        name="banner-bars"*/}
+            {/*        ext="png"*/}
+            {/*        width={700}*/}
+            {/*        height={700}*/}
+            {/*        alt="Building right"*/}
+            {/*        className="w-full object-contain"*/}
+            {/*    />*/}
+            {/*</div>*/}
         </section>
     );
 };

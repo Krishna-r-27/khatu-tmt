@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KhatuTMT.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5bd9241a1ffd97d6964bc0e15333fd5353321a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("KhatuTMT.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KhatuTMT.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

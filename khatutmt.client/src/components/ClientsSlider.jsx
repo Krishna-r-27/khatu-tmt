@@ -35,7 +35,7 @@ const ClientsSlider = () => {
     }, []);
 
     return (
-        <section ref={sectionRef} className="py-10 sm:py-14 md:py-16 lg:py-100 bg-white">
+        <section ref={sectionRef} className="pt-10 sm:pt-14 md:pt-16 lg:pt-32 bg-white">
             <div className="container mx-auto">
 
                 {/* Heading + Arrows */}

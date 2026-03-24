@@ -19,18 +19,12 @@
     );
 
     return (
-        <div
-            className={`transform transition-all duration-[1000ms] ease-[cubic-bezier(0.22,1,0.36,1)]
-        ${isVisible
-                    ? "opacity-100 translate-x-0"
-                    : "opacity-0 -translate-x-16"}
-        `}
-        >
-            <h2 className="text-xl sm:text-4xl font-bold text-primary mb-4 lg:mb-8">
+        <div>
+            <h2 className="text-xl sm:text-4xl font-bold text-primary mt-4 md:mt-14 mb-4 lg:mb-8">
                 Process of flow chart - Steel Melting
             </h2>
 
-            <div className="max-w-6xl mx-auto relative">
+            <div className="mx-auto relative">
 
                 {/* ROW 1 */}
                 <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto_1fr] items-center">
@@ -78,7 +72,7 @@
                             />
 
                             <img
-                                src={`${import.meta.env.BASE_URL}/assets/images/right-side-arrow.png`}
+                                src={`${import.meta.env.BASE_URL}/assets/images/left-side-arrow.png`}
                                 className="h-8 lg:h-auto lg:w-8"
                                 alt=""
                             />
@@ -147,7 +141,7 @@
                             />
 
                             <img
-                                src={`${import.meta.env.BASE_URL}/assets/images/right-side-arrow.png`}
+                                src={`${import.meta.env.BASE_URL}/assets/images/left-side-arrow.png`}
                                 className="h-8 lg:h-auto lg:w-8"
                                 alt=""
                             />

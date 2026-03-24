@@ -124,6 +124,6 @@
 @media (max-width: 1024px) {
 
     .hero-line {
-        transform: translateX(50%) scale(0.98) !important;
+        transform: translateX(35%) scale(0.98) !important;
     }
 }
