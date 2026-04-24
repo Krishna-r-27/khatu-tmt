@@ -484,11 +484,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\khatu-tmt DNC\\khatu-tmt\\KhatuTMT.Server\\KhatuTMT.Server.csproj",
+      "projectUniqueName": "C:\\Users\\DNC\\Desktop\\Krishna Ravalji - DNC Projects\\React Projects\\KhatuTMT\\KhatuTMT.Server\\KhatuTMT.Server.csproj",
       "projectName": "KhatuTMT.Server",
-      "projectPath": "D:\\khatu-tmt DNC\\khatu-tmt\\KhatuTMT.Server\\KhatuTMT.Server.csproj",
+      "projectPath": "C:\\Users\\DNC\\Desktop\\Krishna Ravalji - DNC Projects\\React Projects\\KhatuTMT\\KhatuTMT.Server\\KhatuTMT.Server.csproj",
       "packagesPath": "C:\\Users\\DNC\\.nuget\\packages\\",
-      "outputPath": "D:\\khatu-tmt DNC\\khatu-tmt\\KhatuTMT.Server\\obj\\",
+      "outputPath": "C:\\Users\\DNC\\Desktop\\Krishna Ravalji - DNC Projects\\React Projects\\KhatuTMT\\KhatuTMT.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -508,7 +508,6 @@
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {}
         }
@@ -523,11 +522,10 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
-        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.AspNetCore.SpaProxy": {
@@ -558,11 +556,7 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json"
->>>>>>> 6891d248fbccef9d83df63b161f3b2ccd746fe53
       }
     }
   }
