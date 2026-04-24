@@ -85,11 +85,11 @@ const ContactInfoCards = () => {
                             <div className="bg-[#6F1A07] p-3 rounded-lg flex-shrink-0">
                                 <picture>
                                     <source
-                                        srcSet={`${import.meta.env.BASE_URL}/assets/images/${card.img}.webp`}
+                                        srcSet={`${import.meta.env.BASE_URL}assets/images/${card.img}.webp`}
                                         type="image/webp"
                                     />
                                     <img
-                                        src={`${import.meta.env.BASE_URL}/assets/images/${card.img}.png`}
+                                        src={`${import.meta.env.BASE_URL}assets/images/${card.img}.png`}
                                         alt={card.title}
                                         className="h-6 w-6 object-contain"
                                     />

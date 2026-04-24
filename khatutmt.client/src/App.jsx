@@ -14,7 +14,7 @@ import ScrollToHash from "./components/Common/ScrollToHash";
 function App() {
     return (
         <>
-            <BrowserRouter basename="/khatu-tmt">
+            <BrowserRouter basename="/">
                 <ScrollToTop />
                 <ScrollToHash />
                 <Routes>
@@ -49,7 +49,7 @@ function App() {
                             element={<SiteMap />}
                         />
                         <Route
-                            path="/error"
+                            path="*"
                             element={<Error />}
                         />
                     </Route>

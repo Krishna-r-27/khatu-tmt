@@ -74,3 +74,42 @@ C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\Khat
 C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.genruntimeconfig.cache
 C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\ref\KhatuTMT.Server.dll
 C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.sourcelink.json
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\bin\Release\net8.0\appsettings.Development.json
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\bin\Release\net8.0\spa.proxy.json
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\bin\Release\net8.0\appsettings.json
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\bin\Release\net8.0\KhatuTMT.Server.staticwebassets.endpoints.json
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\bin\Release\net8.0\KhatuTMT.Server.exe
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\bin\Release\net8.0\KhatuTMT.Server.deps.json
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\bin\Release\net8.0\KhatuTMT.Server.runtimeconfig.json
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\bin\Release\net8.0\KhatuTMT.Server.dll
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\bin\Release\net8.0\KhatuTMT.Server.pdb
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\bin\Release\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\bin\Release\net8.0\Microsoft.OpenApi.dll
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\bin\Release\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.csproj.AssemblyReference.cache
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\spa.proxy.json
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\rpswa.dswa.cache.json
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.AssemblyInfoInputs.cache
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.AssemblyInfo.cs
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.csproj.CoreCompileInputs.cache
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.MvcApplicationPartsAssemblyInfo.cs
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.MvcApplicationPartsAssemblyInfo.cache
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.sourcelink.json
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\rjimswa.dswa.cache.json
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\rjsmrazor.dswa.cache.json
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\rjsmcshtml.dswa.cache.json
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\scopedcss\bundle\KhatuTMT.Server.styles.css
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\staticwebassets.build.json
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\staticwebassets.build.json.cache
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\staticwebassets.development.json
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\staticwebassets.build.endpoints.json
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\swae.build.ex.cache
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.1C4DB189.Up2Date
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.dll
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\refint\KhatuTMT.Server.dll
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.pdb
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.genruntimeconfig.cache
+D:\khatu-tmt DNC\khatu-tmt\KhatuTMT.Server\obj\Release\net8.0\ref\KhatuTMT.Server.dll

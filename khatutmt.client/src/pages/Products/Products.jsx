@@ -174,7 +174,7 @@ function Products() {
           
           <Quality />
           <SteelQualitySection
-              bgImage={`${import.meta.env.BASE_URL}/assets/images/steel-quality.png`}
+              bgImage={`${import.meta.env.BASE_URL}assets/images/steel-quality.png`}
               cards={qualityCards}
           />
           <ReBarsTable />

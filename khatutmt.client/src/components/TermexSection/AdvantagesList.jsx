@@ -37,11 +37,11 @@ const AdvantagesList = ({ isVisible }) => {
                     >
                         <picture className="flex-shrink-0">
                             <source
-                                srcSet={`${import.meta.env.BASE_URL}/assets/images/arrow-point.webp`}
+                                srcSet={`${import.meta.env.BASE_URL}assets/images/arrow-point.webp`}
                                 type="image/webp"
                             />
                             <img
-                                src={`${import.meta.env.BASE_URL}/assets/images/arrow-point.png`}
+                                src={`${import.meta.env.BASE_URL}assets/images/arrow-point.png`}
                                 alt="arrow"
                                 className="w-4 h-4 mt-1 flex-shrink-0"
                             />

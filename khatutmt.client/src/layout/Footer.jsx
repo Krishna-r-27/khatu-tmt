@@ -17,7 +17,7 @@ const Footer = () => {
         <footer
             className="relative text-gray-300 bg-cover bg-center"
             style={{
-                backgroundImage: `url('${import.meta.env.BASE_URL}/assets/images/footer-bg.png')`
+                backgroundImage: `url('${import.meta.env.BASE_URL}assets/images/footer-bg.png')`
             }}
         >
          

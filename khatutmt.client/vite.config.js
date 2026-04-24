@@ -40,7 +40,7 @@ const target = env.ASPNETCORE_HTTPS_PORT ? `https://localhost:${env.ASPNETCORE_H
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: '/khatu-tmt',
+    base: '/',
     plugins: [react(), tailwindcss()],
     resolve: {
         alias: {
@@ -49,6 +49,10 @@ export default defineConfig({
     },
     server: {
         proxy: {
+            '^/api': {
+                target,
+                secure: false
+            },
             '^/weatherforecast': {
                 target,
                 secure: false

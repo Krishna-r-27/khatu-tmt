@@ -1,18 +1,44 @@
+using KhatuTMT.Server.Services;
+using KhatuTMT.Server.services; // ← ErrorEmailService namespace
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<ContactFormService>();
+builder.Services.AddScoped<IErrorEmailService, ErrorEmailService>(); // ← NEW
+
 var app = builder.Build();
+
+// ← NEW - UseDefaultFiles() PEHLA aavvu joie
+app.UseExceptionHandler(errorApp =>
+{
+    errorApp.Run(async context =>
+    {
+        var exceptionFeature = context.Features
+            .Get<Microsoft.AspNetCore.Diagnostics.IExceptionHandlerFeature>();
+
+        if (exceptionFeature != null)
+        {
+            var errorService = context.RequestServices
+                .GetRequiredService<IErrorEmailService>();
+
+            await errorService.SendErrorEmail(
+                exceptionFeature.Error,
+                context
+            );
+        }
+
+        context.Response.StatusCode = 500;
+        await context.Response.WriteAsync("Something went wrong.");
+    });
+});
 
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -20,11 +46,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.MapFallbackToFile("/index.html");
 
 app.Run();

@@ -36,11 +36,11 @@ function KhatuTMXBars() {
                       >
                           <picture className="block md:hidden">
                               <source
-                                  srcSet={`${import.meta.env.BASE_URL}/assets/images/close-up-stack-steel-bar.webp`}
+                                  srcSet={`${import.meta.env.BASE_URL}assets/images/close-up-stack-steel-bar.webp`}
                                   type="image/webp"
                               />
                               <img
-                                  src={`${import.meta.env.BASE_URL}/assets/images/close-up-stack-steel-bar.png`}
+                                  src={`${import.meta.env.BASE_URL}assets/images/close-up-stack-steel-bar.png`}
                                   alt="Manufacturing Facility"
                                   className="w-full rounded-2xl shadow-md object-cover"
                               />
@@ -63,11 +63,11 @@ function KhatuTMXBars() {
                       >
                           <picture className="hidden md:block">
                               <source
-                                  srcSet={`${import.meta.env.BASE_URL}/assets/images/close-up-stack-steel-bar.webp`}
+                                  srcSet={`${import.meta.env.BASE_URL}assets/images/close-up-stack-steel-bar.webp`}
                                   type="image/webp"
                               />
                               <img
-                                  src={`${import.meta.env.BASE_URL}/assets/images/close-up-stack-steel-bar.png`}
+                                  src={`${import.meta.env.BASE_URL}assets/images/close-up-stack-steel-bar.png`}
                                   alt="Manufacturing Facility"
                                   className="w-full rounded-2xl shadow-md object-cover"
                               />

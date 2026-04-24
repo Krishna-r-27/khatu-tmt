@@ -121,11 +121,11 @@ function Error() {
                           <span className="bg-[#6F1A07] p-2 rounded-md flex-shrink-0">
                               <picture>
                                   <source
-                                      srcSet="/khatu-tmt/assets/images/location.webp"
+                                      srcSet="assets/images/location.webp"
                                       type="image/webp"
                                   />
                                   <img
-                                      src="/khatu-tmt/assets/images/location.png"
+                                      src="assets/images/location.png"
                                       alt="Location"
                                       className="h-4 w-4 object-contain"
                                   />
@@ -145,11 +145,11 @@ function Error() {
                           <span className="bg-[#6F1A07] p-2 rounded-md flex-shrink-0">
                               <picture>
                                   <source
-                                      srcSet="/khatu-tmt/assets/images/sms-star.webp"
+                                      srcSet="assets/images/sms-star.webp"
                                       type="image/webp"
                                   />
                                   <img
-                                      src="/khatu-tmt/assets/images/sms-star.png"
+                                      src="assets/images/sms-star.png"
                                       alt="Email"
                                       className="h-4 w-4 object-contain"
                                   />
@@ -179,11 +179,11 @@ function Error() {
                           <span className="bg-[#6F1A07] p-2 rounded-md flex-shrink-0">
                               <picture>
                                   <source
-                                      srcSet="/khatu-tmt/assets/images/call-outgoing.webp"
+                                      srcSet="assets/images/call-outgoing.webp"
                                       type="image/webp"
                                   />
                                   <img
-                                      src="/khatu-tmt/assets/images/call-outgoing.png"
+                                      src="assets/images/call-outgoing.png"
                                       alt="Call"
                                       className="h-4 w-4 object-contain"
                                   />

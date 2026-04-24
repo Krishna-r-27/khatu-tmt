@@ -38,11 +38,11 @@ ${isVisible
                       >
                           <picture>
                               <source
-                                  srcSet={`${import.meta.env.BASE_URL}/assets/images/indian-businessman-signs-contract.webp`}
+                                  srcSet={`${import.meta.env.BASE_URL}assets/images/indian-businessman-signs-contract.webp`}
                                   type="image/webp"
                               />
                               <img
-                                  src={`${import.meta.env.BASE_URL}/assets/images/indian-businessman-signs-contract.png`}
+                                  src={`${import.meta.env.BASE_URL}assets/images/indian-businessman-signs-contract.png`}
                                   alt="Manufacturing Facility"
                                   className="w-full rounded-2xl shadow-md object-cover transition-transform duration-[1200ms]"
                               />

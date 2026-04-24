@@ -37,11 +37,11 @@ function Quality() {
                       <div>
                           <picture>
                               <source
-                                  srcSet={`${import.meta.env.BASE_URL}/assets/images/silhouette-group-worker-civil-engineer.webp`}
+                                  srcSet={`${import.meta.env.BASE_URL}assets/images/silhouette-group-worker-civil-engineer.webp`}
                                   type="image/webp"
                               />
                               <img
-                                  src={`${import.meta.env.BASE_URL}/assets/images/silhouette-group-worker-civil-engineer.png`}
+                                  src={`${import.meta.env.BASE_URL}assets/images/silhouette-group-worker-civil-engineer.png`}
                                   alt="Manufacturing Facility"
                                   className="w-full rounded-2xl shadow-md object-cover"
                               />
@@ -64,11 +64,11 @@ function Quality() {
                                   <li className="flex items-start gap-3 text-[#282828] text-sm sm:text-base leading-relaxed">
                                       <picture className="flex-shrink-0">
                                           <source
-                                              srcSet={`${import.meta.env.BASE_URL}/assets/images/arrow-point.webp`}
+                                              srcSet={`${import.meta.env.BASE_URL}assets/images/arrow-point.webp`}
                                               type="image/webp"
                                           />
                                           <img
-                                              src={`${import.meta.env.BASE_URL}/assets/images/arrow-point.png`}
+                                              src={`${import.meta.env.BASE_URL}assets/images/arrow-point.png`}
                                               alt="arrow"
                                               className="w-4 h-4 mt-1 flex-shrink-0"
                                           />
@@ -79,11 +79,11 @@ function Quality() {
                                   <li className="flex items-start gap-3 text-[#282828] text-sm sm:text-base leading-relaxed">
                                       <picture className="flex-shrink-0">
                                           <source
-                                              srcSet={`${import.meta.env.BASE_URL}/assets/images/arrow-point.webp`}
+                                              srcSet={`${import.meta.env.BASE_URL}assets/images/arrow-point.webp`}
                                               type="image/webp"
                                           />
                                           <img
-                                              src={`${import.meta.env.BASE_URL}/assets/images/arrow-point.png`}
+                                              src={`${import.meta.env.BASE_URL}assets/images/arrow-point.png`}
                                               alt="arrow"
                                               className="w-4 h-4 mt-1 flex-shrink-0"
                                           />
@@ -94,11 +94,11 @@ function Quality() {
                                   <li className="flex items-start gap-3 text-[#282828] text-sm sm:text-base leading-relaxed">
                                       <picture className="flex-shrink-0">
                                           <source
-                                              srcSet={`${import.meta.env.BASE_URL}/assets/images/arrow-point.webp`}
+                                              srcSet={`${import.meta.env.BASE_URL}assets/images/arrow-point.webp`}
                                               type="image/webp"
                                           />
                                           <img
-                                              src={`${import.meta.env.BASE_URL}/assets/images/arrow-point.png`}
+                                              src={`${import.meta.env.BASE_URL}assets/images/arrow-point.png`}
                                               alt="arrow"
                                               className="w-4 h-4 mt-1 flex-shrink-0"
                                           />
