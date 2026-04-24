@@ -1,12 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "lrAcUAcmpyc=",
-=======
-  "dgSpecHash": "dUlmAXYJ/po=",
->>>>>>> 6891d248fbccef9d83df63b161f3b2ccd746fe53
   "success": true,
-  "projectFilePath": "D:\\khatu-tmt DNC\\khatu-tmt\\KhatuTMT.Server\\KhatuTMT.Server.csproj",
+  "projectFilePath": "C:\\Users\\DNC\\Desktop\\Krishna Ravalji - DNC Projects\\React Projects\\KhatuTMT\\KhatuTMT.Server\\KhatuTMT.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DNC\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.26\\microsoft.aspnetcore.spaproxy.8.0.26.nupkg.sha512",
     "C:\\Users\\DNC\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

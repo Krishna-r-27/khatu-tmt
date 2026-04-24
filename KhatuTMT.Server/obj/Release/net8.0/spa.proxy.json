@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:49724",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "D:\\khatu-tmt DNC\\khatu-tmt\\KhatuTMT.Server\\..\\khatutmt.client",
+"WorkingDirectory": "C:\\Users\\DNC\\Desktop\\Krishna Ravalji - DNC Projects\\React Projects\\KhatuTMT\\KhatuTMT.Server\\..\\khatutmt.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }
