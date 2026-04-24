@@ -36,11 +36,11 @@ function AboutTmt() {
                       <div>
                           <picture>
                               <source
-                                  srcSet={`${import.meta.env.BASE_URL}/assets/images/tmt.webp`}
+                                  srcSet={`${import.meta.env.BASE_URL}assets/images/tmt.webp`}
                                   type="image/webp"
                               />
                               <img
-                                  src={`${import.meta.env.BASE_URL}/assets/images/tmt.png`}
+                                  src={`${import.meta.env.BASE_URL}assets/images/tmt.png`}
                                   alt="Manufacturing Facility"
                                   className="w-full rounded-2xl shadow-md object-cover"
                               />

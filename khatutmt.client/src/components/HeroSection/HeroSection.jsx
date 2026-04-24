@@ -52,7 +52,7 @@ const HeroSection = () => {
 min-h-[60vh] sm:min-h-[75vh] lg:min-h-[90vh] 
 flex items-start bg-cover bg-center"
             style={{
-                backgroundImage: `url(${import.meta.env.BASE_URL}/assets/images/khatu-tmt-home-banner.png)`
+                backgroundImage: `url(${import.meta.env.BASE_URL}assets/images/khatu-tmt-home-banner.png)`
             }}
         >
             {/* LEFT CONTENT */}

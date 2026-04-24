@@ -12,13 +12,13 @@ const Image = ({
         <picture>
             {/* WebP */}
             <source
-                srcSet={`${base}/assets/images/${name}.webp`}
+                srcSet={`${base}assets/images/${name}.webp`}
                 type="image/webp"
             />
 
             {/* Fallback */}
             <img
-                src={`${base}/assets/images/${name}.${ext}`}
+                src={`${base}assets/images/${name}.${ext}`}
                 alt={alt}
                 width={width}
                 height={height}

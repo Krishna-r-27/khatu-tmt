@@ -28,7 +28,7 @@ const CTASection = () => {
             <div
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-300"
                 style={{
-                    backgroundImage: `url(${import.meta.env.BASE_URL}/assets/images/quality-metals.png)`,
+                    backgroundImage: `url(${import.meta.env.BASE_URL}assets/images/quality-metals.png)`,
                     transform: `scale(${1 + progress * 0.12})`,
                 }}
             />

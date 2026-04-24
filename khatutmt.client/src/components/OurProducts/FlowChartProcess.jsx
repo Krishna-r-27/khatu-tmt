@@ -36,11 +36,11 @@
                         <picture>
                             <source
                                 media="(max-width: 991px)"
-                                srcSet={`${import.meta.env.BASE_URL}/assets/images/down-side-arrow.png`}
+                                srcSet={`${import.meta.env.BASE_URL}assets/images/down-side-arrow.png`}
                             />
 
                             <img
-                                src={`${import.meta.env.BASE_URL}/assets/images/right-side-arrow.png`}
+                                src={`${import.meta.env.BASE_URL}assets/images/right-side-arrow.png`}
                                 className="h-8 lg:h-auto lg:w-8"
                                 alt=""
                             />
@@ -52,7 +52,7 @@
 
                 <div className="flex justify-center lg:justify-end lg:pr-[22%]">
                     <img
-                        src={`${import.meta.env.BASE_URL}/assets/images/down-side-arrow.png`}
+                        src={`${import.meta.env.BASE_URL}assets/images/down-side-arrow.png`}
                         className="h-8"
                         alt=""
                     />
@@ -68,11 +68,11 @@
                         <picture>
                             <source
                                 media="(max-width: 991px)"
-                                srcSet={`${import.meta.env.BASE_URL}/assets/images/down-side-arrow.png`}
+                                srcSet={`${import.meta.env.BASE_URL}assets/images/down-side-arrow.png`}
                             />
 
                             <img
-                                src={`${import.meta.env.BASE_URL}/assets/images/left-side-arrow.png`}
+                                src={`${import.meta.env.BASE_URL}assets/images/left-side-arrow.png`}
                                 className="h-8 lg:h-auto lg:w-8"
                                 alt=""
                             />
@@ -86,7 +86,7 @@
                 {/* ↓ Arrow */}
                 <div className="flex justify-center lg:justify-start lg:pl-[22%]">
                     <img
-                        src={`${import.meta.env.BASE_URL}/assets/images/down-side-arrow.png`}
+                        src={`${import.meta.env.BASE_URL}assets/images/down-side-arrow.png`}
                         className="h-8"
                         alt=""
                     />
@@ -102,11 +102,11 @@
                         <picture>
                             <source
                                 media="(max-width: 991px)"
-                                srcSet={`${import.meta.env.BASE_URL}/assets/images/down-side-arrow.png`}
+                                srcSet={`${import.meta.env.BASE_URL}assets/images/down-side-arrow.png`}
                             />
 
                             <img
-                                src={`${import.meta.env.BASE_URL}/assets/images/right-side-arrow.png`}
+                                src={`${import.meta.env.BASE_URL}assets/images/right-side-arrow.png`}
                                 className="h-8 lg:h-auto lg:w-8"
                                 alt=""
                             />
@@ -120,7 +120,7 @@
                 {/* ↓ Arrow */}
                 <div className="flex justify-center lg:justify-end lg:pr-[22%]">
                     <img
-                        src={`${import.meta.env.BASE_URL}/assets/images/down-side-arrow.png`}
+                        src={`${import.meta.env.BASE_URL}assets/images/down-side-arrow.png`}
                         className="h-8"
                         alt=""
                     />
@@ -137,11 +137,11 @@
                         <picture>
                             <source
                                 media="(max-width: 991px)"
-                                srcSet={`${import.meta.env.BASE_URL}/assets/images/down-side-arrow.png`}
+                                srcSet={`${import.meta.env.BASE_URL}assets/images/down-side-arrow.png`}
                             />
 
                             <img
-                                src={`${import.meta.env.BASE_URL}/assets/images/left-side-arrow.png`}
+                                src={`${import.meta.env.BASE_URL}assets/images/left-side-arrow.png`}
                                 className="h-8 lg:h-auto lg:w-8"
                                 alt=""
                             />
@@ -155,7 +155,7 @@
                 {/* ↓ Arrow */}
                 <div className="flex justify-center lg:justify-start lg:pl-[22%]">
                     <img
-                        src={`${import.meta.env.BASE_URL}/assets/images/down-side-arrow.png`}
+                        src={`${import.meta.env.BASE_URL}assets/images/down-side-arrow.png`}
                         className="h-8"
                         alt=""
                     />

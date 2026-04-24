@@ -8,22 +8,21 @@
     ".NETCoreApp,Version=v8.0": {
       "KhatuTMT.Server/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.SpaProxy": "8.0.24",
+          "Microsoft.AspNetCore.SpaProxy": "8.0.26",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
           "KhatuTMT.Server.dll": {}
         }
       },
-      "Microsoft.AspNetCore.SpaProxy/8.0.24": {
+      "Microsoft.AspNetCore.SpaProxy/8.0.26": {
         "runtime": {
           "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll": {
-            "assemblyVersion": "8.0.24.0",
-            "fileVersion": "8.0.2426.7207"
+            "assemblyVersion": "8.0.26.0",
+            "fileVersion": "8.0.2626.16911"
           }
         }
       },
-      "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
       "Microsoft.OpenApi/1.6.14": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
@@ -34,7 +33,6 @@
       },
       "Swashbuckle.AspNetCore/6.6.2": {
         "dependencies": {
-          "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
           "Swashbuckle.AspNetCore.Swagger": "6.6.2",
           "Swashbuckle.AspNetCore.SwaggerGen": "6.6.2",
           "Swashbuckle.AspNetCore.SwaggerUI": "6.6.2"
@@ -78,19 +76,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.SpaProxy/8.0.24": {
+    "Microsoft.AspNetCore.SpaProxy/8.0.26": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Rp0r2Ie9zd8k+TYV10TYDGxu+fLoQoOtd8lRyRvaM/SK2BqqtG0k5JewmUJsYXu6jy5mXc9vuNydQb5AjFrz1g==",
-      "path": "microsoft.aspnetcore.spaproxy/8.0.24",
-      "hashPath": "microsoft.aspnetcore.spaproxy.8.0.24.nupkg.sha512"
-    },
-    "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
-      "path": "microsoft.extensions.apidescription.server/6.0.5",
-      "hashPath": "microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512"
+      "sha512": "sha512-W/G2DtEUCuXKMgy/OtWhxhmfWe0c087zUk+f4riOttIJzvyrc0X0U2Sf1sPWiN3Nu0n5EW3rX9ANhF94XgPPdQ==",
+      "path": "microsoft.aspnetcore.spaproxy/8.0.26",
+      "hashPath": "microsoft.aspnetcore.spaproxy.8.0.26.nupkg.sha512"
     },
     "Microsoft.OpenApi/1.6.14": {
       "type": "package",

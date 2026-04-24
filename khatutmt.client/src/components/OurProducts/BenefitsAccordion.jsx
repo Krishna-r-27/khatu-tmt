@@ -88,7 +88,7 @@ function BenefitsAccordion({ title, leftItems, rightItems }) {
                                             className="flex items-start gap-3 text-[#282828] text-sm sm:text-base leading-relaxed"
                                         >
                                             <img
-                                                src={`${import.meta.env.BASE_URL}/assets/images/arrow-point.png`}
+                                                src={`${import.meta.env.BASE_URL}assets/images/arrow-point.png`}
                                                 alt="arrow"
                                                 className="w-4 h-4 mt-1 flex-shrink-0"
                                             />
@@ -137,7 +137,7 @@ function BenefitsAccordion({ title, leftItems, rightItems }) {
                                                     className="flex items-start gap-3 text-[#282828] text-sm leading-relaxed"
                                                 >
                                                     <img
-                                                        src={`${import.meta.env.BASE_URL}/assets/images/arrow-point.png`}
+                                                        src={`${import.meta.env.BASE_URL}assets/images/arrow-point.png`}
                                                         alt="arrow"
                                                         className="w-4 h-4 mt-1"
                                                     />
