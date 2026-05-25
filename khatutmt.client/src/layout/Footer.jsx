@@ -89,10 +89,8 @@ const Footer = () => {
                                 <FaMapMarkerAlt className="text-yellow mt-1" />
                                 <span className="leading-relaxed">
                                     <b>Khatu TMT</b><br />
-                                    507, Manglani Chambers,
-                                    Carnac Bunder <br />
-                                    Masjid,
-                                    Mumbai - 400009<br />
+                                    807, Filix, Opp. Asian Paints Company,<br />
+                                    LBS Road, Bhandup, West, Mumbai - 400078 <br />
                                 </span>
                             </li>
 
@@ -159,7 +157,7 @@ const Footer = () => {
                             rel="noopener noreferrer"
                             className="hover:text-yellow transition"
                         >
-                            D&C
+                            Dots and Coms
                         </a>
                     </p>
 

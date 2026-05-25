@@ -25,8 +25,8 @@ const ContactInfoCards = () => {
             title: "Our Location",
             content: (
                 <>
-                    507, Maganlal Chambers, Carnac Bunder<br />
-                    Masjid, Mumbai – 400009
+                    807, Filix, Opp. Asian Paints Company,<br />
+                    LBS Road, Bhandup, West,<br /> Mumbai - 400078
                 </>
             ),
             img: "location"

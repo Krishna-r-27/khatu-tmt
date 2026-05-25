@@ -109,19 +109,24 @@ const ContactMapForm = () => {
                 <div className="grid lg:grid-cols-2 gap-8">
 
                     {/* Map */}
-                    <div className={`rounded-3xl overflow-hidden border border-[#6F1A07]
-                        transform transition-all duration-[1200ms] ease-[cubic-bezier(0.22,1,0.36,1)]
-                        ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-12"}`}>
-                        <a href="https://www.google.com/maps?q=507,Maganlal+Chambers,Carnac+Bunder,Masjid,Mumbai+400009"
-                            target="_blank" rel="noopener noreferrer" className="block w-full h-full">
+                    <div
+                        className={`rounded-3xl overflow-hidden border border-[#6F1A07]
+    transform transition-all duration-[1200ms] ease-[cubic-bezier(0.22,1,0.36,1)]
+    ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-12"}`}
+                    >
+                        <a
+                            href="https://www.google.com/maps?q=SHRI+KHATU+SHYAM+ALLOYS+PVT+LTD,+Survey+No.+148/3,+Near+Parle+Biscuit+Company,+Village+Kharadpada,+Silvassa+396230"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block w-full h-full"
+                        >
                             <iframe
-                                src="https://www.google.com/maps?q=507,Maganlal+Chambers,Carnac+Bunder,Masjid,Mumbai+400009&output=embed"
+                                src="https://www.google.com/maps?q=SHRI+KHATU+SHYAM+ALLOYS+PVT+LTD,+Survey+No.+148/3,+Near+Parle+Biscuit+Company,+Village+Kharadpada,+Silvassa+396230&output=embed"
                                 className="w-full h-full border-0 pointer-events-none"
                                 loading="lazy"
                             ></iframe>
                         </a>
                     </div>
-
                     {/* Form */}
                     <div className={`border border-[#6F1A07] rounded-3xl bg-white overflow-hidden
                         transform transition-all duration-[1200ms] ease-[cubic-bezier(0.22,1,0.36,1)]
