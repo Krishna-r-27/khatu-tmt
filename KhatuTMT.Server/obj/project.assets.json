@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Microsoft.AspNetCore.SpaProxy/8.0.26": {
+      "Microsoft.AspNetCore.SpaProxy/8.0.27": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll": {}
@@ -107,10 +107,10 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.SpaProxy/8.0.26": {
-      "sha512": "W/G2DtEUCuXKMgy/OtWhxhmfWe0c087zUk+f4riOttIJzvyrc0X0U2Sf1sPWiN3Nu0n5EW3rX9ANhF94XgPPdQ==",
+    "Microsoft.AspNetCore.SpaProxy/8.0.27": {
+      "sha512": "xE0GUhCU31MOiFHEqqubuuZyFNRh1Fmv47/p6TC2L4cuzvnFEnJ20E6kNnVPKZl+kVGPbXzUEZDos1X1SK62WA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.spaproxy/8.0.26",
+      "path": "microsoft.aspnetcore.spaproxy/8.0.27",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -118,7 +118,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "build/Microsoft.AspNetCore.SpaProxy.targets",
         "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll",
-        "microsoft.aspnetcore.spaproxy.8.0.26.nupkg.sha512",
+        "microsoft.aspnetcore.spaproxy.8.0.27.nupkg.sha512",
         "microsoft.aspnetcore.spaproxy.nuspec"
       ]
     },
@@ -484,11 +484,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DNC\\Desktop\\Krishna Ravalji - DNC Projects\\React Projects\\KhatuTMT\\KhatuTMT.Server\\KhatuTMT.Server.csproj",
+      "projectUniqueName": "C:\\Users\\DNC\\Desktop\\Krishna - DNC Projects\\React Projects\\KhatuTMT\\KhatuTMT.Server\\KhatuTMT.Server.csproj",
       "projectName": "KhatuTMT.Server",
-      "projectPath": "C:\\Users\\DNC\\Desktop\\Krishna Ravalji - DNC Projects\\React Projects\\KhatuTMT\\KhatuTMT.Server\\KhatuTMT.Server.csproj",
+      "projectPath": "C:\\Users\\DNC\\Desktop\\Krishna - DNC Projects\\React Projects\\KhatuTMT\\KhatuTMT.Server\\KhatuTMT.Server.csproj",
       "packagesPath": "C:\\Users\\DNC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DNC\\Desktop\\Krishna Ravalji - DNC Projects\\React Projects\\KhatuTMT\\KhatuTMT.Server\\obj\\",
+      "outputPath": "C:\\Users\\DNC\\Desktop\\Krishna - DNC Projects\\React Projects\\KhatuTMT\\KhatuTMT.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

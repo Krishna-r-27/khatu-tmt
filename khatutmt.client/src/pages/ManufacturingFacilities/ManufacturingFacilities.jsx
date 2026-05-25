@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import { useEffect, useRef, useState } from "react";
 import BannerSection from "../../components/BannerSection/BannerSection";
 import FlowChartProcess from "../../components/OurProducts/FlowChartProcess";
@@ -20,6 +21,27 @@ const ManufacturingFacilities = () => {
     }, []);
     return (
         <>
+            <Helmet>
+                <title>
+                    Steel Rolling Mill in Silvassa | TMT Bars Manufacturing Plant
+                </title>
+
+                <meta
+                    name="description"
+                    content="Advanced steel rolling mill in Silvassa equipped with modern technology for manufacturing Thermex TMT bars with consistent quality and strength."
+                />
+
+                <meta
+                    name="keywords"
+                    content="steel rolling mill Silvassa, TMT manufacturing plant India, automatic rolling mill, Thermex steel plant, steel production facility"
+                />
+
+                <link
+                    rel="canonical"
+                    href="https://www.khatutmt.com/manufacturing-facilities"
+                />
+            </Helmet>
+
             <BannerSection
                 title="Manufacturing Facilities"
                 pageName="Manufacturing Facilities"/>

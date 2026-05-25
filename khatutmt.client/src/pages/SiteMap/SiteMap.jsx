@@ -1,8 +1,28 @@
+import { Helmet } from "react-helmet";
 import BannerSection from "../../components/BannerSection/BannerSection";
 import { Link } from "react-router-dom";
 function SiteMap() {
   return (
       <>
+          <Helmet>
+              <title>Website Sitemap | Khatu TMT</title>
+
+              <meta
+                  name="description"
+                  content="Explore the complete sitemap of Khatu TMT website including all pages, products and resources."
+              />
+
+              <meta
+                  name="keywords"
+                  content="sitemap Khatu TMT, website sitemap, TMT pages list, site navigation"
+              />
+
+              <link
+                  rel="canonical"
+                  href="https://www.khatutmt.com/sitemap"
+              />
+          </Helmet>
+
           <BannerSection
               title="Sitemap"
               pageName="Sitemap" />
@@ -18,14 +38,7 @@ function SiteMap() {
                   </h2>
 
                   <p className="text-[#282828] leading-relaxed mb-3">
-                      Khatut TMT is a leading manufacturer of high-strength TMT bars
-                      designed for durable, earthquake-resistant, and long-lasting
-                      construction. We deliver premium quality steel solutions that
-                      ensure safety, strength, and reliability for every project.
-                      Our TMT bars are manufactured using advanced technology to
-                      provide superior bonding strength, corrosion resistance, and
-                      excellent ductility, making them ideal for residential,
-                      commercial, and infrastructure projects.
+                      Khatu TMT is a leading TMT bars manufacturer in India offering high quality Thermex TMT bars, billets and ingots for construction and infrastructure projects. Known for strength, durability and BIS certified standards, these steel products are widely used across applications.
                   </p>
 
 
@@ -37,14 +50,7 @@ function SiteMap() {
                   </h2>
 
                   <p className="text-[#282828] leading-relaxed mb-3">
-                      Khatut TMT is committed to producing high-quality thermo
-                      mechanically treated (TMT) steel bars that meet national and
-                      international standards. With years of experience in steel
-                      manufacturing, we focus on innovation, quality control, and
-                      customer satisfaction.
-                      Our mission is to build a stronger India by supplying reliable
-                      construction steel that enhances structural integrity and
-                      long-term performance.
+                      A well-established steel manufacturer in India specializing in TMT bars, billets and ingots produced through advanced rolling mill technology. The company focuses on quality production, innovation and supporting infrastructure growth with consistent steel solutions.
                   </p>
 
 
@@ -56,12 +62,7 @@ function SiteMap() {
                   </h2>
 
                   <p className="text-[#282828] leading-relaxed mb-3">
-                      We manufacture premium grade TMT bars in various sizes suitable
-                      for residential, commercial, and industrial construction.
-                      Our products offer superior tensile strength, flexibility,
-                      and resistance against corrosion.
-                      Each bar undergoes strict quality testing to ensure
-                      consistency, durability, and compliance with IS standards.
+                      Khatu TMT offers a wide range of TMT bars in Fe 500, Fe 500D and Fe 550 grades along with billets and ingots manufactured as per BIS standards. These products ensure high strength, corrosion resistance and durability for modern construction needs.
                   </p>
 
 
@@ -73,12 +74,7 @@ function SiteMap() {
                   </h2>
 
                   <p className="text-[#282828] leading-relaxed mb-3">
-                      Our state-of-the-art manufacturing unit is equipped with
-                      advanced rolling mills and automated quality control systems.
-                      We use modern quenching and self-tempering technology to
-                      produce high-strength TMT bars.
-                      From raw material selection to final dispatch, every stage
-                      follows strict quality protocols to ensure superior product performance.
+                      A modern steel rolling mill in Silvassa equipped with advanced technology for manufacturing Thermex TMT bars with precision and consistency. The facility supports high performance steel production for construction and infrastructure sectors.
                   </p>
 
 
@@ -90,13 +86,7 @@ function SiteMap() {
                   </h2>
 
                   <p className="text-[#282828] leading-relaxed mb-3">
-                      TMT (Thermo Mechanically Treated) bars are high-strength
-                      reinforcement bars widely used in construction. They are
-                      manufactured using a special heat treatment process that
-                      enhances strength, ductility, and corrosion resistance.
-                      TMT bars provide better earthquake resistance, higher load
-                      bearing capacity, and longer structural life compared to
-                      conventional steel bars.
+                      TMT bars are thermo mechanically treated steel bars widely used in construction for their strength, ductility and corrosion resistance. The advanced manufacturing process ensures durability and suitability for earthquake resistant structures.
                   </p>
 
 
@@ -108,9 +98,7 @@ function SiteMap() {
                   </h2>
 
                   <p className="text-[#282828] leading-relaxed mb-4 lg:mb-5">
-                      Get in touch with Khatut TMT for product inquiries,
-                      dealership opportunities, or bulk orders. Our team is ready
-                      to assist you with technical guidance and project requirements.
+                      Khatu TMT provides reliable supply of TMT bars, billets and ingots across India. Connect with the Mumbai office for inquiries, product details and business communication.
                   </p>
 
                   <ul className="space-y-6 text-sm text-gray-333333">
