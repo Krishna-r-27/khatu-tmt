@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import BannerSection from "../../components/BannerSection/BannerSection";
 import About from "../../components/About/Collaborators";
 import SpecialFeatures from "../../components/About/SpecialFeatures";
@@ -6,6 +7,26 @@ import SideImageContentLayout from "../../components/SideImageContentLayout";
 function AboutUs() {
   return (
       <>
+          <Helmet>
+              <title>
+                  Steel Manufacturer in India | TMT Bars & Rolling Mill Company
+              </title>
+
+              <meta
+                  name="description"
+                  content="Leading steel manufacturer in India producing TMT bars, billets and ingots with advanced rolling mill technology and strong industry experience."
+              />
+
+              <meta
+                  name="keywords"
+                  content="steel manufacturer India, TMT bar company, rolling mill manufacturer, billets and ingots supplier, steel industry company"
+              />
+
+              <link
+                  rel="canonical"
+                  href="https://www.khatutmt.com/about-us"
+              />
+          </Helmet>
           <BannerSection
               title="About Us"
               pageName="About Us"

@@ -1,4 +1,5 @@
-﻿import { useEffect } from "react";
+﻿import { Helmet } from "react-helmet";
+import { useEffect } from "react";
 import BannerSection from "../../components/BannerSection/BannerSection";
 function ThankYou() {
 
@@ -13,6 +14,22 @@ function ThankYou() {
 
     return (
         <>
+            <Helmet>
+                <title>Thank You | Khatu TMT</title>
+
+                <meta
+                    name="description"
+                    content="Thank you for contacting Khatu TMT. Our team will get back to you shortly regarding your inquiry."
+                />
+
+                <meta name="robots" content="noindex, nofollow" />
+
+                <link
+                    rel="canonical"
+                    href="https://www.khatutmt.com/thank-you"
+                />
+            </Helmet>
+
             <BannerSection
                 title="Thank You"
                 pageName="Thank You" />

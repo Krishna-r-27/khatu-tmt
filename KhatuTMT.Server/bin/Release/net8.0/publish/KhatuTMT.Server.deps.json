@@ -8,18 +8,18 @@
     ".NETCoreApp,Version=v8.0": {
       "KhatuTMT.Server/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.SpaProxy": "8.0.26",
+          "Microsoft.AspNetCore.SpaProxy": "8.0.27",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
           "KhatuTMT.Server.dll": {}
         }
       },
-      "Microsoft.AspNetCore.SpaProxy/8.0.26": {
+      "Microsoft.AspNetCore.SpaProxy/8.0.27": {
         "runtime": {
           "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll": {
-            "assemblyVersion": "8.0.26.0",
-            "fileVersion": "8.0.2626.16911"
+            "assemblyVersion": "8.0.27.0",
+            "fileVersion": "8.0.2726.23008"
           }
         }
       },
@@ -78,12 +78,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.SpaProxy/8.0.26": {
+    "Microsoft.AspNetCore.SpaProxy/8.0.27": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-W/G2DtEUCuXKMgy/OtWhxhmfWe0c087zUk+f4riOttIJzvyrc0X0U2Sf1sPWiN3Nu0n5EW3rX9ANhF94XgPPdQ==",
-      "path": "microsoft.aspnetcore.spaproxy/8.0.26",
-      "hashPath": "microsoft.aspnetcore.spaproxy.8.0.26.nupkg.sha512"
+      "sha512": "sha512-xE0GUhCU31MOiFHEqqubuuZyFNRh1Fmv47/p6TC2L4cuzvnFEnJ20E6kNnVPKZl+kVGPbXzUEZDos1X1SK62WA==",
+      "path": "microsoft.aspnetcore.spaproxy/8.0.27",
+      "hashPath": "microsoft.aspnetcore.spaproxy.8.0.27.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",

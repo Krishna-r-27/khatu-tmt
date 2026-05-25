@@ -1,7 +1,7 @@
 ﻿import { useState, useEffect } from "react";
 import Image from "../components/Image";
 import ThemeButton from "../components/ThemeButton";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 const Header = () => {
     const [open, setOpen] = useState(false);
@@ -14,7 +14,7 @@ const Header = () => {
         "What is TMT?",
         "Contact Us",
     ];
-
+    const location = useLocation();
     // Prevent body scroll when menu is open
     useEffect(() => {
         document.body.style.overflow = open ? "hidden" : "auto";
@@ -89,7 +89,7 @@ const Header = () => {
 
 
                 {/* Desktop CTA */}
-                <div className="hidden xl:block">
+                <div className={`hidden xl:block ${location.pathname === "/contact-us" ? "invisible" : "visible"}`}>
                     <ThemeButton link="/contact-us" text="Enquiry Now" />
                 </div>
 
@@ -172,7 +172,7 @@ const Header = () => {
                     </nav>
 
                     {/* Mobile CTA */}
-                    <div className="px-4 mt-auto">
+                    <div className={`px-4 mt-auto ${location.pathname === "/contact-us" ? "invisible" : "visible"}`}>
                         <ThemeButton link="/contact-us" text="Enquiry Now" className="w-full" />
                     </div>
 

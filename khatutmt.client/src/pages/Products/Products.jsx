@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import BannerSection from "../../components/BannerSection/BannerSection";
 import Billets from "../../components/OurProducts/Billets";
 import KhatuTMXBars from "../../components/OurProducts/KhatuTMXBars";
@@ -166,6 +167,26 @@ function Products() {
     ];
   return (
       <>
+          <Helmet>
+              <title>
+                  TMT Bars Fe 500, 500D, 550 | Billets & Ingots Supplier
+              </title>
+
+              <meta
+                  name="description"
+                  content="Buy TMT bars in Fe 500, Fe 500D and Fe 550 grades with high strength, durability and corrosion resistance. BIS standard billets and ingots available."
+              />
+
+              <meta
+                  name="keywords"
+                  content="TMT bars Fe500, Fe500D TMT bars supplier, Fe550 steel bars, billets supplier India, ingots manufacturer, BIS TMT bars"
+              />
+
+              <link
+                  rel="canonical"
+                  href="https://www.khatutmt.com/products"
+              />
+          </Helmet>
           <BannerSection
               title="Our Products"
               pageName="Products" />

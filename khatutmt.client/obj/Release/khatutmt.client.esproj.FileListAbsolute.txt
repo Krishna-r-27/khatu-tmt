@@ -1,3 +1,4 @@
 D:\chaitali\react projects\KhatuTMT\khatutmt.client\obj\Release\khatutmt.client.esproj.CoreCompileInputs.cache
 C:\Users\DNC\Desktop\Krishna Ravalji - DNC Projects\React Projects\KhatuTMT\khatutmt.client\obj\Release\khatutmt.client.esproj.CoreCompileInputs.cache
 D:\khatu-tmt DNC\khatu-tmt\khatutmt.client\obj\Release\khatutmt.client.esproj.CoreCompileInputs.cache
+C:\Users\DNC\Desktop\Krishna - DNC Projects\React Projects\KhatuTMT\khatutmt.client\obj\Release\khatutmt.client.esproj.CoreCompileInputs.cache
