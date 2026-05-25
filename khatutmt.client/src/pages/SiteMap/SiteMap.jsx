@@ -121,8 +121,8 @@ function SiteMap() {
                               <h3 className="text-lg text-[#6F1A07] font-bold mb-1">
                                   Shri Khatu Shyam Alloys Pvt Ltd
                               </h3>
-                              507, Maganlal Chambers, Carnac Bunder<br />
-                              Masjid, Mumbai - 400009
+                              807, Filix, Opp. Asian Paints Company,<br />
+                              LBS Road, Bhandup, West, Mumbai - 400078
                           </span>
                       </li>
 
