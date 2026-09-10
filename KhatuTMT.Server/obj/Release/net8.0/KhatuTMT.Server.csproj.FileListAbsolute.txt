@@ -74,3 +74,4 @@ C:\Users\DNC\Desktop\Krishna - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Ser
 C:\Users\DNC\Desktop\Krishna - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.pdb
 C:\Users\DNC\Desktop\Krishna - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\KhatuTMT.Server.genruntimeconfig.cache
 C:\Users\DNC\Desktop\Krishna - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\obj\Release\net8.0\ref\KhatuTMT.Server.dll
+C:\Users\DNC\Desktop\Krishna - DNC Projects\React Projects\KhatuTMT\KhatuTMT.Server\bin\Release\net8.0\KhatuTMT.Server.staticwebassets.runtime.json

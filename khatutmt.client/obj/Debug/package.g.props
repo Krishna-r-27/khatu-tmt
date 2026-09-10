@@ -7,7 +7,10 @@
     <PackageJsonType Condition="$(PackageJsonType) == ''">module</PackageJsonType>
     <PackageJsonHomepage Condition="$(PackageJsonHomepage) == ''">/</PackageJsonHomepage>
     <PackageJsonScriptsDev Condition="$(PackageJsonScriptsDev) == ''">vite</PackageJsonScriptsDev>
-    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">vite build</PackageJsonScriptsBuild>
+    <PackageJsonScriptsGenerateSeo Condition="$(PackageJsonScriptsGenerateSeo) == ''">node scripts/generate-seo.mjs</PackageJsonScriptsGenerateSeo>
+    <PackageJsonScriptsPrerender Condition="$(PackageJsonScriptsPrerender) == ''">node scripts/prerender.mjs</PackageJsonScriptsPrerender>
+    <PackageJsonScriptsQaPrerender Condition="$(PackageJsonScriptsQaPrerender) == ''">node scripts/qa-prerender.mjs</PackageJsonScriptsQaPrerender>
+    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">npm run generate:seo &amp;&amp; vite build &amp;&amp; npm run prerender &amp;&amp; npm run qa:prerender</PackageJsonScriptsBuild>
     <PackageJsonScriptsLint Condition="$(PackageJsonScriptsLint) == ''">eslint .</PackageJsonScriptsLint>
     <PackageJsonScriptsPreview Condition="$(PackageJsonScriptsPreview) == ''">vite preview</PackageJsonScriptsPreview>
     <PackageJsonDependenciesFancyappsUi Condition="$(PackageJsonDependenciesFancyappsUi) == ''">^6.1.13</PackageJsonDependenciesFancyappsUi>
@@ -27,6 +30,7 @@
     <PackageJsonDevdependenciesEslintPluginReactHooks Condition="$(PackageJsonDevdependenciesEslintPluginReactHooks) == ''">^7.0.1</PackageJsonDevdependenciesEslintPluginReactHooks>
     <PackageJsonDevdependenciesEslintPluginReactRefresh Condition="$(PackageJsonDevdependenciesEslintPluginReactRefresh) == ''">^0.4.24</PackageJsonDevdependenciesEslintPluginReactRefresh>
     <PackageJsonDevdependenciesGlobals Condition="$(PackageJsonDevdependenciesGlobals) == ''">^16.5.0</PackageJsonDevdependenciesGlobals>
+    <PackageJsonDevdependenciesPlaywright Condition="$(PackageJsonDevdependenciesPlaywright) == ''">^1.63.0</PackageJsonDevdependenciesPlaywright>
     <PackageJsonDevdependenciesTailwindcss Condition="$(PackageJsonDevdependenciesTailwindcss) == ''">^4.1.18</PackageJsonDevdependenciesTailwindcss>
     <PackageJsonDevdependenciesVite Condition="$(PackageJsonDevdependenciesVite) == ''">^7.2.4</PackageJsonDevdependenciesVite>
   </PropertyGroup>

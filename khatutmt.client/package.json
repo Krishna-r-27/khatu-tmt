@@ -6,7 +6,10 @@
   "homepage": "/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "generate:seo": "node scripts/generate-seo.mjs",
+    "prerender": "node scripts/prerender.mjs",
+    "qa:prerender": "node scripts/qa-prerender.mjs",
+    "build": "npm run generate:seo && vite build && npm run prerender && npm run qa:prerender",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -30,6 +33,7 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
+    "playwright": "^1.63.0",
     "tailwindcss": "^4.1.18",
     "vite": "^7.2.4"
   }

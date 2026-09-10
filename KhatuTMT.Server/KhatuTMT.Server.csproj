@@ -16,6 +16,13 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <Target Name="CopyClientBuildToPublish" AfterTargets="Publish">
+    <ItemGroup>
+      <ClientBuild Include="..\khatutmt.client\dist\**\*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(ClientBuild)" DestinationFiles="@(ClientBuild->'$(PublishDir)wwwroot\%(RecursiveDir)%(Filename)%(Extension)')" />
+  </Target>
+
   <ItemGroup>
     <ProjectReference Include="..\khatutmt.client\khatutmt.client.esproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
