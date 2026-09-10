@@ -1,5 +1,23 @@
+
 @import "tailwindcss";
 @config "../tailwind.config.js"; /*@import "tw-animate-css";*/ /*@custom-variant dark (&:is(.dark *));*/
+
+/* =========================================================
+   SEO fallback / React takeover
+   ========================================================= */
+
+/*
+ * The server sends crawler-visible SEO content inside #root.
+ *
+ * Non-JS crawlers can still see this content.
+ * Once JavaScript starts, main.jsx adds .js-enabled to <html>,
+ * so only the SEO fallback is hidden for normal browsers.
+ *
+ * Do NOT hide #root itself.
+ */
+html.js-enabled #seo-content {
+    display: none !important;
+}
 
 @layer base {
     html, body {
