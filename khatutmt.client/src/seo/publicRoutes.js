@@ -1,0 +1,93 @@
+// This is the single source of truth for public URLs. Build scripts emit it as
+// seo-routes.json and sitemap.xml; the client and ASP.NET host use that output.
+export const siteUrl = "https://www.khatutmt.com";
+
+export const publicRoutes = [
+  {
+    path: "/",
+    title: "TMT Bars Manufacturer India | Thermex Steel Bars Supplier",
+    description: "TMT bars manufacturer in India offering Thermex steel bars, billets and ingots. BIS certified, high strength steel for construction and infrastructure projects.",
+    keywords: "TMT bars manufacturer India, Thermex TMT bars supplier, steel bars India, BIS certified TMT bars, construction steel supplier",
+    heading: "Khatu TMT - Thermex steel bars for construction",
+    body: "Shri Khatu Shyam Alloys Pvt. Ltd. manufactures and supplies Thermex TMT bars, billets and ingots for construction and infrastructure projects. Founded in 2001, the company operates a modern steel rolling mill in Silvassa and serves customers across India.",
+    prerender: true,
+    sitemap: true
+  },
+  {
+    path: "/about-us",
+    title: "Steel Manufacturer in India | TMT Bars & Rolling Mill Company",
+    description: "Leading steel manufacturer in India producing TMT bars, billets and ingots with advanced rolling mill technology and strong industry experience.",
+    keywords: "steel manufacturer India, TMT bar company, rolling mill manufacturer, billets and ingots supplier, steel industry company",
+    heading: "About Khatu TMT",
+    body: "Shri Khatu Shyam Alloys Pvt. Ltd. manufactures high-strength deformed steel bars for concrete reinforcement. With Thermex technology from HSE Germany, modern production machinery and quality assurance equipment, Khatu TMT supplies international-quality steel bars to the Indian market.",
+    prerender: true,
+    sitemap: true
+  },
+  {
+    path: "/products",
+    title: "TMT Bars Fe 500, 500D, 550 | Billets & Ingots Supplier",
+    description: "Buy TMT bars in Fe 500, Fe 500D and Fe 550 grades with high strength, durability and corrosion resistance. BIS standard billets and ingots available.",
+    keywords: "TMT bars Fe500, Fe500D TMT bars supplier, Fe550 steel bars, billets supplier India, ingots manufacturer, BIS TMT bars",
+    heading: "Khatu TMT steel products",
+    body: "Khatu TMT supplies Fe 500, Fe 500D and Fe 550 reinforcement bars, as well as billets and ingots. The product range is engineered for strength, ductility, corrosion resistance and dependable construction performance.",
+    prerender: true,
+    sitemap: true
+  },
+  {
+    path: "/manufacturing-facilities",
+    title: "Steel Rolling Mill in Silvassa | TMT Bars Manufacturing Plant",
+    description: "Advanced steel rolling mill in Silvassa equipped with modern technology for manufacturing Thermex TMT bars with consistent quality and strength.",
+    keywords: "steel rolling mill Silvassa, TMT manufacturing plant India, automatic rolling mill, Thermex steel plant, steel production facility",
+    heading: "Khatu TMT manufacturing facilities",
+    body: "Khatu TMT operates a steel unit in Kharadpada, Silvassa, about 150 km from Mumbai. Its fully automatic rolling mill produces M.S. billets and TMT bars using advanced machinery and quality controls for construction and infrastructure customers.",
+    prerender: true,
+    sitemap: true
+  },
+  {
+    path: "/what-is-tmt",
+    title: "TMT Bar in Construction | Process, Properties & Benefits",
+    description: "TMT bars used in construction with thermo mechanical treatment process, high strength, ductility and corrosion resistance for durable steel structures.",
+    keywords: "TMT bar in construction, thermo mechanical treatment process, TMT bar properties, TMT bar benefits, high strength steel bars, corrosion resistant TMT bars, ductile steel bars",
+    heading: "What is a TMT bar?",
+    body: "TMT bars are thermo-mechanically treated steel bars used to reinforce concrete. Their combination of high strength, ductility and corrosion resistance makes them well suited to durable and earthquake-resistant structures.",
+    prerender: true,
+    sitemap: true
+  },
+  {
+    path: "/contact-us",
+    title: "Contact TMT Bars Manufacturer India | Steel Supplier Details",
+    description: "Contact TMT bars manufacturer for billets, ingots and steel supply. Get details of Mumbai office and Silvassa plant for business inquiries.",
+    keywords: "contact TMT manufacturer India, steel supplier contact, TMT bars inquiry, steel company Mumbai, Silvassa steel plant contact",
+    heading: "Contact Khatu TMT",
+    body: "Contact Shri Khatu Shyam Alloys Pvt. Ltd. for TMT bars, billets and ingots. The Mumbai office is at 807, Filix, Opposite Asian Paints Company, LBS Road, Bhandup West, Mumbai 400078. Call +91 99307 72570 or email info@khatutmt.com.",
+    prerender: true,
+    sitemap: true
+  },
+  {
+    path: "/sitemap",
+    title: "Website Sitemap | Khatu TMT",
+    description: "Explore the complete sitemap of Khatu TMT website including all pages, products and resources.",
+    keywords: "sitemap Khatu TMT, website sitemap, TMT pages list, site navigation",
+    heading: "Khatu TMT sitemap",
+    body: "Browse Khatu TMT information about the company, steel products, manufacturing facilities, thermo-mechanical treatment and contact details.",
+    prerender: true,
+    sitemap: true
+  },
+  {
+    path: "/thank-you",
+    title: "Thank You | Khatu TMT",
+    description: "Thank you for contacting Khatu TMT.",
+    keywords: "",
+    heading: "Thank you",
+    body: "Thank you for your enquiry. The Khatu TMT team will get back to you shortly.",
+    prerender: false,
+    sitemap: false,
+    robots: "noindex, nofollow"
+  }
+];
+
+export const routeByPath = Object.fromEntries(publicRoutes.map((route) => [route.path, route]));
+
+export function absoluteUrl(path) {
+  return `${siteUrl}${path === "/" ? "/" : path}`;
+}

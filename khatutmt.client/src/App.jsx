@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { useLayoutEffect } from "react";
 import AppLayout from './layout/AppLayout';
 import Home from "./pages/Home/Home";
 import ManufacturingFacilities from "./pages/ManufacturingFacilities/ManufacturingFacilities";
@@ -11,10 +12,31 @@ import Error from "./pages/Error/Error";
 import SiteMap from "./pages/SiteMap/SiteMap";
 import ScrollToTop from "./components/Common/ScrollToTop";
 import ScrollToHash from "./components/Common/ScrollToHash";
+import { routeByPath, absoluteUrl } from "./seo/publicRoutes";
+import { setSEO } from "./utils/seo";
+
+function RouteSeo() {
+    const { pathname } = useLocation();
+    const route = routeByPath[pathname];
+
+    useLayoutEffect(() => {
+        if (!route) return;
+        setSEO({ ...route, url: absoluteUrl(route.path) });
+        updateRobots(route.robots || "index, follow");
+    }, [route]);
+
+    return null;
+}
+
+function updateRobots(content) {
+    const tag = document.querySelector('meta[name="robots"]');
+    if (tag) tag.setAttribute("content", content);
+}
 function App() {
     return (
         <>
             <BrowserRouter basename="/">
+                <RouteSeo />
                 <ScrollToTop />
                 <ScrollToHash />
                 <Routes>

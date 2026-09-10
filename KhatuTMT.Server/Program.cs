@@ -1,5 +1,6 @@
 using KhatuTMT.Server.Services;
 using KhatuTMT.Server.services; // ← ErrorEmailService namespace
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ContactFormService>();
 builder.Services.AddScoped<IErrorEmailService, ErrorEmailService>(); // ← NEW
+builder.Services.AddSingleton<SeoRouteCatalog>();
 
 var app = builder.Build();
 
@@ -36,9 +38,6 @@ app.UseExceptionHandler(errorApp =>
     });
 });
 
-app.UseDefaultFiles();
-app.UseStaticFiles();
-
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -48,6 +47,15 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
-app.MapFallbackToFile("/index.html");
+app.UseMiddleware<SeoPageMiddleware>();
+app.UseDefaultFiles();
+var staticRoot = !app.Environment.IsDevelopment() && File.Exists(Path.Combine(app.Environment.WebRootPath, "seo-routes.json"))
+    ? app.Environment.WebRootPath
+    : Path.GetFullPath(Path.Combine(app.Environment.ContentRootPath, "..", "khatutmt.client", "dist"));
+app.UseStaticFiles(new StaticFileOptions { FileProvider = new PhysicalFileProvider(staticRoot) });
+
+// The only SPA fallback is an intentionally empty shell. Known public pages are
+// intercepted by SeoPageMiddleware; unknown routes receive a 404 there.
+app.MapFallbackToFile("/spa-shell.html");
 
 app.Run();
